@@ -1,15 +1,120 @@
 {
   "meta": {
-    "title": "Lord of Mysteries — Interactive Archive",
+    "title": "Lord of Mysteries — архив последовательностей",
     "language": "ru",
-    "demo": true,
+    "demo": false,
     "chapterLimit": 1432,
-    "scopeNote": "Радиальный каталог 22 путей. До главы 267 включительно отображаются последовательности 9–1; начиная с главы 268 добавляется точка 0. У записей без проверенного момента раскрытия название, способности и сведения остаются скрыты как ???, вместо того чтобы раскрывать каталогические спойлеры по умолчанию.",
+    "scopeNote": "Исследовательский срез романа Lord of Mysteries охватывает главы 1–600. В каталоге сохранены все 22 пути и 220 слотов последовательностей, но заполнены только детали, для которых удалось подтвердить название, способности или формулу. В spoiler-safe режиме отдельно фильтруются название последовательности, способности, рецепт, принцип исполнения роли, описание персонажа и последняя известная ступень. Отсутствие проверенной даты означает ???, а не автоматическое раскрытие.",
     "sourceNotes": [
-      "Деррик Берг (The Sun) вступает в Клуб Таро в главе 138, запрашивает формулу Барда (Путь Солнца).",
-      "Клейн продвигается в Клоуна около глав 155–169.",
-      "Формула Телепата обменивается вскоре после появления Деррика.",
-      "Город Серебра знакомит Клуб с Путем Воина."
+      "Для Клейна зафиксированы продвижения: Провидец — глава 32, Клоун — 168, Маг — 295, Безликий — 451.",
+      "Для Одри: Зритель — глава 41, Телепат — 221, Психиатр — 519.",
+      "Для Деррика: Бард — глава 157, Молящийся Свету — 290, Верховный жрец Солнца — 584.",
+      "Для Форс: путь Ученика раскрывается в сюжетной линии около главы 340, Мастер трюков — 542.",
+      "Для Эмлина: Вампир раскрывается около главы 315, Профессор зелий — 592.",
+      "Дата на advancement указывает, когда читателю уже можно показывать персонажа на текущей последовательности, а не обязательно точный внутримировой момент употребления зелья.",
+      "Рецепты и справочные способности, для которых нет надёжной главы первого раскрытия в основном сюжете, не выдаются в spoiler-safe режиме.",
+      "Для Айзегарда Стэнтона момент раскрытия пути Белой Башни и Sequence 7 Detective выставлен на главу 271; первое появление персонажа не приравнивается к раскрытию его последовательности.",
+      "Для Даница Sequence 7 Pyromaniac открывается в пределах сюжетного участка около глав 499–551; формула оставлена пустой, поскольку надёжный момент полного раскрытия рецепта до главы 600 не подтверждён.",
+      "Сириус Арапес исправлен с Sequence 9 на Sequence 8 Listener; Алджер показывается в подтверждённом состоянии Sequence 7 Seafarer, а не Sequence 8 Folk of Rage.",
+      "Список персонажей на конкретной последовательности формируется по последней известной на выбранной главе ступени: до даты её раскрытия персонаж не появляется в карточке этой ступени."
+    ],
+    "researchCutoffChapter": 600,
+    "sources": [
+      {
+        "title": "LOTM Wiki — Potion System / List of Potion Formulas",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Potion_System/List_of_Potion_Formulas",
+        "usedFor": "Сверка названий и ингредиентов зельев."
+      },
+      {
+        "title": "LOTM Wiki — Fool Pathway / Advancement",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Fool_Pathway/Advancement",
+        "usedFor": "Формулы и способности последовательностей пути Провидца."
+      },
+      {
+        "title": "LOTM Wiki — Visionary Pathway / Advancement",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Visionary_Pathway/Advancement",
+        "usedFor": "Формулы и способности пути Зрителя."
+      },
+      {
+        "title": "LOTM Wiki — Sun Pathway / Advancement",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Sun_Pathway/Advancement",
+        "usedFor": "Формулы и способности пути Солнца."
+      },
+      {
+        "title": "LOTM Wiki — Door Pathway / Advancement",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Door_Pathway/Advancement",
+        "usedFor": "Формулы и способности пути Ученика."
+      },
+      {
+        "title": "LOTM Wiki — Moon Pathway / Advancement",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Moon_Pathway/Advancement",
+        "usedFor": "Формулы и способности пути Аптекаря."
+      },
+      {
+        "title": "Xio Derecha / Progress",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Xio_Derecha/Progress",
+        "usedFor": "Глава 406 как момент приобретения формулы Шерифа; отдельно от продвижения."
+      },
+      {
+        "title": "Главы 1–100: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-1-100/",
+        "usedFor": "Сверка раннего повествования."
+      },
+      {
+        "title": "Главы 101–200: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-101-200/",
+        "usedFor": "Сверка формулы Клоуна, Клуба Таро и ранних продвижений."
+      },
+      {
+        "title": "Главы 201–300: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-201-300/",
+        "usedFor": "Сверка раскрытий около глав 221–295."
+      },
+      {
+        "title": "Главы 301–400: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-301-400/",
+        "usedFor": "Сверка раскрытий около глав 315–380."
+      },
+      {
+        "title": "Главы 401–500: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-401-500/",
+        "usedFor": "Сверка глав 406 и 451."
+      },
+      {
+        "title": "Главы 501–600: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-501-600/",
+        "usedFor": "Сверка продвижений в главах 519, 542, 584 и 592."
+      },
+      {
+        "title": "Isengard Stanton — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Isengard_Stanton",
+        "usedFor": "Первое появление в главе 157 и подтверждение Sequence 7 Detective / White Tower Pathway при раскрытии в главе 271."
+      },
+      {
+        "title": "White Tower Pathway / Abilities — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/White_Tower_Pathway/Abilities",
+        "usedFor": "Описание аналитических и реконструкционных способностей Детектива."
+      },
+      {
+        "title": "Danitz Dubois / Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Danitz_Dubois/Progress",
+        "usedFor": "Сверка пути Охотника и замечаний о последствиях продвижения к Sequence 7."
+      },
+      {
+        "title": "Red Priest Pathway / Abilities — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Red_Priest_Pathway/Abilities",
+        "usedFor": "Способности Пироманьяка: пирокинез, духовное зрение и интуиция опасности."
+      },
+      {
+        "title": "Red Priest Pathway / Advancement — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Red_Priest_Pathway/Advancement",
+        "usedFor": "Сверка сведений о зелье и ограничениях управления огнём; состав не открывается в базе без подтверждённой главы раскрытия."
+      },
+      {
+        "title": "Sequence Names — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Sequence/List_of_Sequence_Names",
+        "usedFor": "Сверка официальных английских названий последовательностей и соответствия путям."
+      }
     ]
   },
   "pathways": [
@@ -26,21 +131,20 @@
           "number": 9,
           "name": "Провидец",
           "englishName": "Seer",
-          "revealChapter": 1,
-          "summaryRevealChapter": 1,
-          "abilitiesRevealChapter": 31,
-          "summary": "Духовное зрение, гадание, ритуальная магия. Почти нет боевой силы.",
+          "revealChapter": 31,
+          "summaryRevealChapter": 32,
+          "abilitiesRevealChapter": 32,
+          "summary": "Низшая ступень с сильной духовностью: духовное зрение, гадание и базовая ритуальная магия; в прямом бою заметно уступает боевым путям.",
           "abilities": [
-            "Духовное зрение",
-            "Гадание",
-            "Усиленная память и духовность",
-            "Базовая ритуальная магия"
+            "Духовное зрение: различает духовные сущности и следы потустороннего.",
+            "Гадание разными методами; повышенная чувствительность к опасности.",
+            "Усиленные память и духовность; базовая ритуальная магия."
           ],
           "potion": {
             "known": true,
             "mainIngredients": [
               "10 мл крови лавосского кальмара",
-              "50 г звёздного кристалла"
+              "50 г звёздного кристалла (допускается соответствующая характеристика Потустороннего)"
             ],
             "supplementaryIngredients": [
               "100 мл очищенной воды",
@@ -49,82 +153,139 @@
               "3 капли сока ядовитого болиголова",
               "9 г порошка драконьей кровавой травы"
             ],
-            "alternative": "Характеристика Потустороннего Seq. 9",
-            "preparation": "Смешать вспомогательные, затем основные.",
-            "sourceChapter": 31
+            "alternative": "Характеристика Провидца может заменить набор основных ингредиентов.",
+            "preparation": "Вспомогательные ингредиенты смешиваются с основными по формуле; импровизировать с пропорциями опасно.",
+            "sourceChapter": 31,
+            "appearance": "Состав описан в романе через приготовление Клейна; цвет и консистенция здесь не реконструируются из поздней вики.",
+            "appearanceRevealChapter": 31,
+            "formulaStatus": "Полная формула, подтверждённая ранними главами.",
+            "formulaRevealChapter": 31,
+            "preparationRevealChapter": 31
           },
-          "actingPrinciple": "Практиковать гадание, помогать толковать знаки, не полагаться на гадание слепо.",
-          "notes": null
+          "actingPrinciple": "Сохранять привычку гадать и толковать знаки, но проверять результат и не превращать гадание в слепую веру.",
+          "notes": null,
+          "actingPrincipleRevealChapter": 32
         },
         {
           "id": "fool-8",
           "number": 8,
           "name": "Клоун",
           "englishName": "Clown",
-          "revealChapter": 155,
-          "summaryRevealChapter": 155,
-          "abilitiesRevealChapter": 169,
-          "summary": "Контроль тела, ловкость, лицо может не отражать эмоции.",
+          "revealChapter": 103,
+          "summaryRevealChapter": 168,
+          "abilitiesRevealChapter": 168,
+          "summary": "Физический контроль и координация резко возрастают: Потусторонний может совершать невероятно ловкие движения, а интуиция опасности становится острее.",
           "abilities": [
-            "Повышенная ловкость и контроль мышц",
-            "Сокрытие истинных эмоций",
-            "Улучшенное духовное зрение и гадание"
+            "Точный контроль мышц, равновесия и движений; акробатика и уклонение.",
+            "Усиленная интуиция опасности и способность быстро реагировать.",
+            "Бумажные предметы можно временно использовать как опасные импровизированные снаряды; не заменяет настоящего оружия."
           ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Кристалл зрелого рога серого горного козла Хорнакис",
+              "Целый стебель розы с человеческим лицом (альтернатива основному набору — характеристика Клоуна)"
+            ],
+            "supplementaryIngredients": [
+              "80 мл очищенной воды",
+              "5 капель сока дурмана",
+              "7 г порошка черноокаймлённого подсолнуха",
+              "10 г порошка золотистой плащ-травы",
+              "3 капли сока ядовитого болиголова"
+            ],
+            "sourceChapter": 103,
+            "appearance": "Жидкость с отчётливо разделёнными золотистым, жёлтым и красным оттенками; внутри бурлят пузырьки.",
+            "appearanceRevealChapter": 168,
+            "formulaStatus": "Полная формула; имя становится известно раньше, чем Клейн выпивает зелье.",
+            "alternative": "Характеристика Клоуна может заменить основные ингредиенты.",
+            "preparation": "Точный ритуал приготовления не выделен отдельно в ранних главах.",
+            "formulaRevealChapter": 103,
+            "preparationRevealChapter": 103
           },
-          "actingPrinciple": "???",
+          "actingPrinciple": "Поддерживать образ клоуна через выступление и действия, не сводя роль к гримасам: задача — понять и отыграть саму суть роли.",
           "notes": "Клейн продвигается около глав 155–169.",
-          "notesRevealChapter": 169
+          "notesRevealChapter": 169,
+          "actingPrincipleRevealChapter": 168
         },
         {
           "id": "fool-7",
           "number": 7,
           "name": "Маг",
           "englishName": "Magician",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 295,
+          "summaryRevealChapter": 295,
+          "abilitiesRevealChapter": 295,
+          "summary": "Подготовленный к выступлению боец-трикстер: сочетает трюки, мистические приёмы, ловкость и способы избежать смертельного удара.",
+          "abilities": [
+            "Замена бумажной фигуркой: подготовленная бумажная фигурка может принять на себя часть последствий атаки.",
+            "Прыжок в пламя и перемещение при помощи огня; ограниченные пирокинетические трюки.",
+            "Воздушные пушки и другие подготовленные магические приёмы; способности эффективнее при заблаговременной подготовке."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Истинный корень туманного древодрева",
+              "Весь спинномозговой сок тёмно-узорной чёрной пантеры (либо характеристика Мага)"
+            ],
+            "supplementaryIngredients": [
+              "60 мл очищенной воды",
+              "30 мл сока туманного древодрева",
+              "3 г порошка камня-капли",
+              "4 капли эфирного масла фантазийной травы"
+            ],
+            "sourceChapter": 295,
+            "formulaStatus": "Формула зафиксирована в справочном источнике; этап приготовления показан в районе главы 295.",
+            "alternative": "Характеристика Мага заменяет основные ингредиенты.",
+            "formulaRevealChapter": 295
           },
-          "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "actingPrinciple": "Заранее готовить трюки и пути отхода; никогда не полагаться на один приём и не входить в опасную ситуацию совершенно неподготовленным.",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "actingPrincipleRevealChapter": 295,
+          "notesRevealChapter": 295
         },
         {
           "id": "fool-6",
           "number": 6,
           "name": "Безликий",
           "englishName": "Faceless",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 451,
+          "summaryRevealChapter": 451,
+          "abilitiesRevealChapter": 451,
+          "summary": "Ключевая способность — менять внешность и физические особенности, не выходя за естественные ограничения собственного тела.",
+          "abilities": [
+            "Изменение лица, телосложения в допустимых пределах, голоса и запаха.",
+            "Копирование внешности конкретного человека требует точного наблюдения и понимания деталей.",
+            "Сохраняются улучшенная ловкость, духовность и дивинационные способности предыдущих ступеней."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Мутировавший гипофиз тысячеликого охотника",
+              "Характеристика тени с человеческой кожей (либо характеристика Безликого)"
+            ],
+            "supplementaryIngredients": [
+              "80 мл крови тысячеликого охотника",
+              "5 капель сока чёрного дурмана",
+              "10 г порошка драконьего зуба",
+              "3 волоса глубоководной наги"
+            ],
+            "sourceChapter": 451,
+            "formulaStatus": "Полная формула; состав доступен на момент продвижения Клейна.",
+            "alternative": "Характеристика Безликого заменяет основные ингредиенты.",
+            "formulaRevealChapter": 451
           },
-          "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "actingPrinciple": "Углублять понимание других людей и своей личности; внешняя маска должна быть убедительной, но не разрушать собственное самоосознание.",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "actingPrincipleRevealChapter": 451,
+          "notesRevealChapter": 451
         },
         {
           "id": "fool-5",
           "number": 5,
           "name": "Марионеточник",
           "englishName": "Marionettist",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
+          "revealChapter": 665,
+          "summaryRevealChapter": 665,
           "abilitiesRevealChapter": 1433,
           "summary": "",
           "abilities": [],
@@ -135,7 +296,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 665
         },
         {
           "id": "fool-4",
@@ -154,7 +316,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "fool-3",
@@ -173,7 +336,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "fool-2",
@@ -192,7 +356,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "fool-1",
@@ -211,7 +376,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "fool-0",
@@ -230,10 +396,14 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Провидца",
+      "displayEnglishName": "Seer Pathway",
+      "displayNameRevealChapter": 31
     },
     {
       "id": "door",
@@ -247,38 +417,73 @@
           "number": 9,
           "name": "Ученик",
           "englishName": "Apprentice",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 340,
+          "summaryRevealChapter": 340,
+          "abilitiesRevealChapter": 340,
+          "summary": "Мобильный Потусторонний, специализирующийся на перемещении, трюках и доступе к мистическим пространствам.",
+          "abilities": [
+            "Усиленные ловкость и чувство пространства.",
+            "Способности к перемещению и проникновению, а также повышенная совместимость с мистическими трюками.",
+            "Практические умения развиваются при переходе на следующие ступени."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "1 червь, пожирающий самоцветы",
+              "1 кристалл иллюзий"
+            ],
+            "supplementaryIngredients": [
+              "10 капель гидрозоля козлобородника",
+              "90 мл воды из древнего колодца",
+              "1 цветок, выросший на трупе",
+              "5 г почвы, загрязнённой Миром духов"
+            ],
+            "sourceChapter": 340,
+            "appearance": "Чёрная густая бурлящая жидкость, напоминающая традиционный травяной отвар.",
+            "appearanceRevealChapter": 340,
+            "formulaStatus": "Известна в линии Форс; данные раскрываются при её сюжете, а не с начала книги.",
+            "alternative": "Характеристика Ученика заменяет основные ингредиенты.",
+            "formulaRevealChapter": 340
           },
-          "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "actingPrinciple": "Не выставлять свою силу напоказ и не становиться самодовольным; продолжать учиться и принимать наставления.",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "actingPrincipleRevealChapter": 340,
+          "notesRevealChapter": 340
         },
         {
           "id": "door-8",
           "number": 8,
           "name": "Мастер трюков",
           "englishName": "Trickmaster",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 344,
+          "summaryRevealChapter": 542,
+          "abilitiesRevealChapter": 542,
+          "summary": "Развивает обманные трюки и пространственные способности Ученика; конкретная сила зависит от подготовки и окружения.",
+          "abilities": [
+            "Продвинутые трюки и ловкость.",
+            "Улучшенные способности к пространственному перемещению и обходу препятствий.",
+            "Эффективность растёт с подготовкой: это не безусловная телепортация без ограничений."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Желудочный мешок пожирателя душ",
+              "20 мл крови глубоководного марлина"
+            ],
+            "supplementaryIngredients": [
+              "5 мл эфирного масла из граба",
+              "10 г порошка верёвочной травы",
+              "1 цветок красного каштана в цвету",
+              "80 мл очищенной воды"
+            ],
+            "sourceChapter": 542,
+            "formulaStatus": "Формула связана с последующим продвижением Форс; основной сюжет показывает её актуальность к главе 542.",
+            "alternative": "Характеристика Мастера трюков заменяет основные ингредиенты.",
+            "formulaRevealChapter": 542
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 344
         },
         {
           "id": "door-7",
@@ -297,7 +502,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "door-6",
@@ -316,7 +522,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "door-5",
@@ -335,7 +542,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "door-4",
@@ -354,7 +562,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "door-3",
@@ -373,7 +582,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "door-2",
@@ -392,7 +602,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "door-1",
@@ -411,7 +622,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "door-0",
@@ -430,11 +642,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Ученика",
+      "displayEnglishName": "Apprentice Pathway",
+      "displayNameRevealChapter": 340
     },
     {
       "id": "error",
@@ -460,7 +676,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "error-8",
@@ -479,7 +696,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "error-7",
@@ -498,7 +716,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "error-6",
@@ -517,7 +736,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "error-5",
@@ -536,7 +756,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "error-4",
@@ -555,7 +776,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "error-3",
@@ -574,7 +796,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "error-2",
@@ -593,7 +816,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "error-1",
@@ -612,7 +836,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "error-0",
@@ -631,11 +856,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Мародёра",
+      "displayEnglishName": "Marauder Pathway",
+      "displayNameRevealChapter": 355
     },
     {
       "id": "spectator",
@@ -651,13 +880,13 @@
           "name": "Зритель",
           "englishName": "Spectator",
           "revealChapter": 7,
-          "summaryRevealChapter": 20,
-          "abilitiesRevealChapter": 40,
-          "summary": "Чтение поверхностных эмоций, отстранённость от сцены.",
+          "summaryRevealChapter": 41,
+          "abilitiesRevealChapter": 41,
+          "summary": "Начальная ступень ментального пути: тонкое наблюдение и анализ людей, их эмоциональных состояний и мотивов.",
           "abilities": [
-            "Наблюдение за эмоциями и мотивами",
-            "Чувствительность к лжи",
-            "Спокойствие и дистанция"
+            "Улучшенные наблюдательность, память и способность к анализу.",
+            "Распознавание эмоциональных состояний и несоответствий между поведением и чувствами.",
+            "Повышенная устойчивость к отвлекающим эмоциям за счёт дистанцированного наблюдения."
           ],
           "potion": {
             "known": true,
@@ -672,60 +901,89 @@
               "7 лепестков эльфийского цветка"
             ],
             "preparation": "???",
-            "sourceChapter": 80
+            "sourceChapter": 5,
+            "formulaStatus": "Формула обсуждается в ранних встречах Клуба Таро.",
+            "alternative": "Характеристика Зрителя может заменить основные ингредиенты.",
+            "formulaRevealChapter": 5,
+            "preparationRevealChapter": 5
           },
-          "actingPrinciple": "Оставаться зрителем, не выходить на сцену.",
-          "notes": null
+          "actingPrinciple": "Всегда оставаться наблюдателем: не выходить на сцену и не позволять событиям полностью втянуть себя.",
+          "notes": null,
+          "actingPrincipleRevealChapter": 41
         },
         {
           "id": "spectator-8",
           "number": 8,
           "name": "Телепат",
           "englishName": "Telepathist",
-          "revealChapter": 140,
-          "summaryRevealChapter": 140,
-          "abilitiesRevealChapter": 145,
-          "summary": "Углублённое чтение мыслей и эмоций.",
+          "revealChapter": 144,
+          "summaryRevealChapter": 221,
+          "abilitiesRevealChapter": 221,
+          "summary": "Расширяет наблюдение до прямого восприятия поверхностных мыслей и более точного чтения ментальных реакций.",
           "abilities": [
-            "Чтение поверхностных мыслей",
-            "Более точное восприятие эмоций"
+            "Чтение поверхностных мыслей при соблюдении ограничений способности.",
+            "Более точное восприятие эмоций, намерений и состояния эфирного тела.",
+            "Усиление ментальной наблюдательности; резкое и нелогичное поведение затрудняет применение навыков."
           ],
           "potion": {
             "known": true,
             "mainIngredients": [
-              "Целый гипофиз взрослой семицветной ящерицы-дракона",
+              "Полный гипофиз взрослой семицветной саламандры",
               "10 мл спинномозговой жидкости кролика Фальсмана"
             ],
             "supplementaryIngredients": [
-              "100 мл очищенной воды",
               "5 г почек каштана",
               "8 г порошка драконьего зуба",
-              "3 чисто-белых эльфийских цветка"
+              "3 чисто-белых эльфийских цветка",
+              "100 мл очищенной воды"
             ],
             "preparation": "???",
-            "sourceChapter": 144
+            "sourceChapter": 144,
+            "formulaStatus": "Формула обменивается в Клубе Таро; Одри продвигается позже.",
+            "alternative": "Характеристика Телепата может заменить основные ингредиенты.",
+            "formulaRevealChapter": 144,
+            "preparationRevealChapter": 144
           },
-          "actingPrinciple": "???",
-          "notes": "Формула обменивается в Клубе Таро вскоре после появления Деррика."
+          "actingPrinciple": "Не действовать резко и вопреки логике: удерживать разум и поведение последовательными.",
+          "notes": "Формула обменивается в Клубе Таро вскоре после появления Деррика.",
+          "actingPrincipleRevealChapter": 221,
+          "notesRevealChapter": 144
         },
         {
           "id": "spectator-7",
           "number": 7,
           "name": "Психиатр",
           "englishName": "Psychiatrist",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 519,
+          "summaryRevealChapter": 519,
+          "abilitiesRevealChapter": 519,
+          "summary": "Специалист по психологии и воздействию на сознание: чтение психического состояния дополняется активным влиянием на чужой разум.",
+          "abilities": [
+            "Более глубокий анализ психики и душевного состояния.",
+            "Гипноз и ментальное воздействие на цели в пределах способности.",
+            "Усиленная способность обнаруживать внутренние конфликты и психологические слабости."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Плод дерева Старейшин",
+              "Пара глаз зеркального дракона (либо характеристика Психиатра)"
+            ],
+            "supplementaryIngredients": [
+              "50 мл крови зеркального дракона",
+              "15 г порошка коры дерева Старейшин",
+              "10 капель эфирного масла наперстянки",
+              "9 прядей детских волос"
+            ],
+            "sourceChapter": 519,
+            "formulaStatus": "Формула появляется в линии продвижения Одри; способности показаны в главе 519.",
+            "alternative": "Характеристика Психиатра заменяет основные ингредиенты.",
+            "formulaRevealChapter": 519
           },
-          "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "actingPrinciple": "Пытаться понять человеческую психику глубоко, а не просто манипулировать поверхностными эмоциями.",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "actingPrincipleRevealChapter": 519,
+          "notesRevealChapter": 519
         },
         {
           "id": "spectator-6",
@@ -744,7 +1002,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "spectator-5",
@@ -763,7 +1022,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "spectator-4",
@@ -782,7 +1042,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "spectator-3",
@@ -801,7 +1062,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "spectator-2",
@@ -820,7 +1082,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "spectator-1",
@@ -839,7 +1102,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "spectator-0",
@@ -858,10 +1122,14 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Зрителя",
+      "displayEnglishName": "Spectator Pathway",
+      "displayNameRevealChapter": 7
     },
     {
       "id": "sun",
@@ -877,19 +1145,19 @@
           "name": "Бард",
           "englishName": "Bard",
           "revealChapter": 138,
-          "summaryRevealChapter": 138,
-          "abilitiesRevealChapter": 150,
-          "summary": "Гимны света: воодушевление союзников, отпугивание нечисти, очищение.",
+          "summaryRevealChapter": 157,
+          "abilitiesRevealChapter": 157,
+          "summary": "Певец-гимнист, способный поднимать боевой дух и ослаблять существ, чувствительных к свету и очищению.",
           "abilities": [
-            "Пение гимнов, укрепляющих союзников",
-            "Отпугивание и очищение нечисти светом",
-            "Улучшенное телосложение"
+            "Пение, которое придаёт союзникам смелость и поддерживает их физическое состояние.",
+            "Световые и очищающие эффекты против нежити и зловредных духов.",
+            "Умеренное физическое усиление."
           ],
           "potion": {
             "known": true,
             "mainIngredients": [
-              "Кристаллизованный подсолнух (или перо огненной птицы)",
-              "Камень сирены (или поющий подсолнух)"
+              "Кристаллизованный подсолнух ИЛИ хвостовое перо взрослой огненной птицы",
+              "Камень сирены ИЛИ поющий подсолнух"
             ],
             "supplementaryIngredients": [
               "80 мл красного вина",
@@ -898,48 +1166,87 @@
               "Лист тёмного эльфийского листа"
             ],
             "preparation": "???",
-            "sourceChapter": 138
+            "sourceChapter": 157,
+            "formulaStatus": "Деррик запрашивает формулу раньше, получает её в Клубе Таро около главы 157.",
+            "alternative": "Характеристика Барда заменяет основные ингредиенты.",
+            "formulaRevealChapter": 157,
+            "preparationRevealChapter": 157
           },
-          "actingPrinciple": "Воспевать свет, поддерживать других, нести надежду.",
-          "notes": "Формулу Деррик получает в Клубе Таро (глава ~138)."
+          "actingPrinciple": "Через гимны и собственные поступки нести храбрость и свет; формула и роль связаны с прославлением Солнца.",
+          "notes": "Формулу Деррик получает в Клубе Таро (глава ~138).",
+          "actingPrincipleRevealChapter": 157,
+          "notesRevealChapter": 138
         },
         {
           "id": "sun-8",
           "number": 8,
           "name": "Молящийся Свету",
           "englishName": "Light Suppliant",
-          "revealChapter": 200,
-          "summaryRevealChapter": 200,
-          "abilitiesRevealChapter": null,
-          "summary": "???",
-          "abilities": [],
+          "revealChapter": 290,
+          "summaryRevealChapter": 290,
+          "abilitiesRevealChapter": 290,
+          "summary": "Пользователь ограниченного набора световых и огненных заклинаний, особенно эффективных против нежити и духов.",
+          "abilities": [
+            "Ограниченное число заклинаний света и огня.",
+            "Свет, благословения и очищение против нежити и зловредных сущностей.",
+            "Улучшенное восприятие в темноте и сопротивление воздействию страха и тьмы."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Кусок камня Блеска ИЛИ порошок Ослепительной души",
+              "Кровь зеркального ежа ИЛИ сердце магмового титана"
+            ],
+            "supplementaryIngredients": [
+              "100 мл красного вина",
+              "Подсолнух с золотой каймой",
+              "3 капли сока аконита",
+              "Предмет поклонения Солнцу"
+            ],
+            "sourceChapter": 290,
+            "formulaStatus": "Формула и продвижение Деррика известны к главе 290.",
+            "alternative": "Характеристика Молящегося Свету заменяет основные ингредиенты.",
+            "formulaRevealChapter": 290
           },
           "actingPrinciple": "???",
-          "notes": "Ещё не раскрыт на текущем демо-срезе."
+          "notes": "Ещё не раскрыт на текущем демо-срезе.",
+          "notesRevealChapter": 290
         },
         {
           "id": "sun-7",
           "number": 7,
           "name": "Верховный жрец Солнца",
           "englishName": "Solar High Priest",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 515,
+          "summaryRevealChapter": 584,
+          "abilitiesRevealChapter": 584,
+          "summary": "Более сильный священнослужитель солнечного пути, способный формировать священные эффекты, благословлять союзников и очищать область.",
+          "abilities": [
+            "Солнечный ореол и создание священной воды.",
+            "Священная клятва усиливает союзников и наделяет их атаки световыми свойствами.",
+            "Призыв святого света и более мощные заклинания солнечной области."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Красный гребень петуха Рассвета",
+              "1 плод дерева духовного договора Сияния"
+            ],
+            "supplementaryIngredients": [
+              "100 мл крови петуха Рассвета",
+              "10 капель эфирного масла Солнца",
+              "8 г порошка пальчатого цитрона",
+              "5 г затвердевшей магмы"
+            ],
+            "sourceChapter": 515,
+            "formulaStatus": "Формула становится доступна Деррику до его продвижения в главе 584.",
+            "alternative": "Характеристика Верховного жреца Солнца заменяет основные ингредиенты.",
+            "formulaRevealChapter": 515
           },
-          "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "actingPrinciple": "Соблюдать клятвы и нести свет; не использовать священные обещания как пустую формальность.",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "actingPrincipleRevealChapter": 584,
+          "notesRevealChapter": 515
         },
         {
           "id": "sun-6",
@@ -958,7 +1265,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sun-5",
@@ -977,7 +1285,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sun-4",
@@ -996,7 +1305,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sun-3",
@@ -1015,7 +1325,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sun-2",
@@ -1034,7 +1345,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sun-1",
@@ -1053,7 +1365,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sun-0",
@@ -1072,10 +1385,14 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Солнца",
+      "displayEnglishName": "Sun Pathway",
+      "displayNameRevealChapter": 138
     },
     {
       "id": "sailor",
@@ -1090,14 +1407,14 @@
           "number": 9,
           "name": "Моряк",
           "englishName": "Sailor",
-          "revealChapter": 20,
-          "summaryRevealChapter": 40,
-          "abilitiesRevealChapter": 60,
-          "summary": "Усиленное тело, плавание, устойчивость к воде и бурям.",
+          "revealChapter": 7,
+          "summaryRevealChapter": 7,
+          "abilitiesRevealChapter": 7,
+          "summary": "Начальная ступень физически крепкого морского Потустороннего с повышенной выносливостью и приспособленностью к воде.",
           "abilities": [
-            "Повышенная сила и выносливость",
-            "Свободное плавание и дыхание под водой (ограниченно)",
-            "Устойчивость к морской среде"
+            "Улучшенные физическая сила, баланс и выносливость.",
+            "Лучшее плавание и способность дольше задерживать дыхание.",
+            "Повышенная приспособленность к морской среде."
           ],
           "potion": {
             "known": false,
@@ -1106,7 +1423,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "???",
-          "notes": "Алджер Уилсон (The Hanged Man) идёт этим путём."
+          "notes": "Алджер Уилсон (The Hanged Man) идёт этим путём.",
+          "notesRevealChapter": 7
         },
         {
           "id": "sailor-8",
@@ -1115,9 +1433,13 @@
           "englishName": "Folk of Rage",
           "revealChapter": 100,
           "summaryRevealChapter": 100,
-          "abilitiesRevealChapter": null,
-          "summary": "???",
-          "abilities": [],
+          "abilitiesRevealChapter": 100,
+          "summary": "Боец, чей физический потенциал усиливается под влиянием ярости и боевого возбуждения.",
+          "abilities": [
+            "Сильное физическое усиление в бою.",
+            "Ярость может усилить силу и скорость, но плохо контролируемые эмоции опасны.",
+            "Улучшенная стойкость в морском окружении."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -1132,11 +1454,15 @@
           "number": 7,
           "name": "Мореход",
           "englishName": "Seafarer",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 311,
+          "summaryRevealChapter": 311,
+          "abilitiesRevealChapter": 311,
+          "summary": "Морской странник с выраженным инстинктом навигации и улучшенным восприятием морских условий.",
+          "abilities": [
+            "Повышенное чувство направления и приспособленность к морю.",
+            "Лучшие навыки навигации, географии и ориентации.",
+            "Усиленная память и выносливость."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -1144,7 +1470,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 311
         },
         {
           "id": "sailor-6",
@@ -1163,7 +1490,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sailor-5",
@@ -1182,7 +1510,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sailor-4",
@@ -1201,7 +1530,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sailor-3",
@@ -1220,7 +1550,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sailor-2",
@@ -1239,7 +1570,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sailor-1",
@@ -1258,7 +1590,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sailor-0",
@@ -1277,10 +1610,14 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Моряка",
+      "displayEnglishName": "Sailor Pathway",
+      "displayNameRevealChapter": 7
     },
     {
       "id": "hanged-man",
@@ -1294,11 +1631,15 @@
           "number": 9,
           "name": "Молящийся тайнам",
           "englishName": "Secrets Suppliant",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 104,
+          "summaryRevealChapter": 104,
+          "abilitiesRevealChapter": 104,
+          "summary": "Низшая ступень пути, ориентированного на общение с тайными сущностями и добычу запретного знания. Контакт требует осторожности: источник знания может быть опасен.",
+          "abilities": [
+            "Повышенная духовность и восприимчивость к оккультным явлениям.",
+            "Способность обращаться к тайным сущностям и получать сведения через мистические практики.",
+            "Ритуалы и обращения не гарантируют безопасного или достоверного ответа; контакт может повредить рассудку."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -1306,26 +1647,33 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "В романе названия и подробности раскрываются постепенно; справочные данные без проверенной даты оставлены скрытыми.",
+          "notesRevealChapter": 104
         },
         {
           "id": "hanged-man-8",
           "number": 8,
           "name": "Слушатель",
           "englishName": "Listener",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 103,
+          "summaryRevealChapter": 103,
+          "abilitiesRevealChapter": 103,
+          "summary": "Слушатель воспринимает шёпот и сообщения потусторонних сущностей. Получение знания становится более прямым, но опасность влияния источника остаётся.",
+          "abilities": [
+            "Воспринимать шёпот скрытых сущностей и извлекать из него информацию.",
+            "Усиленное духовное восприятие и способность различать сверхъестественные сообщения.",
+            "Контакт может вызывать психическое давление, навязчивые идеи или потерю контроля; способность не равна безопасному всеведению."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
             "supplementaryIngredients": [],
             "sourceChapter": null
           },
-          "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "actingPrinciple": "Не воспринимать услышанное как безусловную истину: отделять информацию от влияния источника и сохранять собственную волю.",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433,
+          "actingPrincipleRevealChapter": 103
         },
         {
           "id": "hanged-man-7",
@@ -1344,7 +1692,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hanged-man-6",
@@ -1363,18 +1712,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hanged-man-5",
           "number": 5,
           "name": "Пастырь",
           "englishName": "Shepherd",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 380,
+          "summaryRevealChapter": 380,
+          "abilitiesRevealChapter": 380,
+          "summary": "Пастырь собирает души и может использовать их свойства и способности. Чем разнообразнее поглощённые души, тем шире набор приёмов, но возрастает риск потери контроля.",
+          "abilities": [
+            "«Выпас» душ: сохранять поглощённые души и обращаться к их способностям.",
+            "Получать доступ к разным сверхъестественным умениям в рамках ограничений способности.",
+            "Использование чужих сил не устраняет их слабости и риски; множество источников повышает сложность контроля."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -1382,7 +1736,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробности способности проявляются в конфликте с Мистером А; количественные ограничения здесь не указаны без отдельной точной сверки.",
+          "notesRevealChapter": 380
         },
         {
           "id": "hanged-man-4",
@@ -1401,7 +1756,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hanged-man-3",
@@ -1420,7 +1776,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hanged-man-2",
@@ -1439,7 +1796,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hanged-man-1",
@@ -1458,7 +1816,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hanged-man-0",
@@ -1477,11 +1836,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Молящегося тайнам",
+      "displayEnglishName": "Secrets Supplicant Pathway",
+      "displayNameRevealChapter": 104
     },
     {
       "id": "white-tower",
@@ -1507,7 +1870,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "white-tower-8",
@@ -1526,18 +1890,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "white-tower-7",
           "number": 7,
           "name": "Детектив",
           "englishName": "Detective",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 271,
+          "summaryRevealChapter": 271,
+          "abilitiesRevealChapter": 271,
+          "summary": "Детектив — специалист по сбору знаний и логическому восстановлению событий. Помимо развитого мышления, сохраняет практические боевые и мистические навыки.",
+          "abilities": [
+            "Повышенные аналитические способности, наблюдательность и умение делать выводы.",
+            "«Реконструкция»: сверхъестественный анализ обстановки и восстановление произошедших в конкретном месте событий.",
+            "Хорошее владение оружием, улучшенная ловкость и высокий уровень ритуальной магии."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -1545,7 +1914,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Эта последовательность показана через детектива Айзегарда Стэнтона; его статус Потустороннего пути Белой Башни подтверждён в главе 271.",
+          "notesRevealChapter": 271
         },
         {
           "id": "white-tower-6",
@@ -1564,7 +1934,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "white-tower-5",
@@ -1583,7 +1954,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "white-tower-4",
@@ -1602,7 +1974,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "white-tower-3",
@@ -1621,7 +1994,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "white-tower-2",
@@ -1640,7 +2014,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "white-tower-1",
@@ -1659,7 +2034,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "white-tower-0",
@@ -1678,11 +2054,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Чтеца",
+      "displayEnglishName": "Reader Pathway",
+      "displayNameRevealChapter": 271
     },
     {
       "id": "sleepless",
@@ -1697,15 +2077,14 @@
           "number": 9,
           "name": "Бессонный",
           "englishName": "Sleepless",
-          "revealChapter": 15,
-          "summaryRevealChapter": 15,
-          "abilitiesRevealChapter": 25,
-          "summary": "Ночное зрение, сила ночью, сон 2–4 часа.",
+          "revealChapter": 31,
+          "summaryRevealChapter": 31,
+          "abilitiesRevealChapter": 31,
+          "summary": "Потусторонний, которому требуется значительно меньше сна; ночная активность и духовная восприимчивость повышены.",
           "abilities": [
-            "Видеть в темноте",
-            "Сильнее глубокой ночью",
-            "Сон 2–4 часа в сутки",
-            "Повышенная духовность"
+            "Спать всего несколько часов в сутки без обычной усталости.",
+            "Повышенная ночная активность и духовное восприятие.",
+            "Небольшое общее физическое усиление."
           ],
           "potion": {
             "known": true,
@@ -1720,7 +2099,9 @@
               "Кофе или чай (по вкусу)"
             ],
             "preparation": "???",
-            "sourceChapter": 25
+            "sourceChapter": 25,
+            "formulaRevealChapter": 25,
+            "preparationRevealChapter": 25
           },
           "actingPrinciple": "Бодрствовать, когда другие спят.",
           "notes": null
@@ -1732,11 +2113,12 @@
           "englishName": "Midnight Poet",
           "revealChapter": 40,
           "summaryRevealChapter": 40,
-          "abilitiesRevealChapter": 50,
-          "summary": "Стихи ночи, влияние на сон.",
+          "abilitiesRevealChapter": 40,
+          "summary": "Поэт ночи: сочетает усиленную духовность с мистическим восприятием и ночными преимуществами.",
           "abilities": [
-            "Заклинания через стихи",
-            "Влияние на сон и кошмары"
+            "Более сильное духовное восприятие и ночная наблюдательность.",
+            "Повышенная устойчивость к влиянию темноты.",
+            "Мистические навыки лучше работают в ночных условиях."
           ],
           "potion": {
             "known": false,
@@ -1754,11 +2136,12 @@
           "englishName": "Nightmare",
           "revealChapter": 50,
           "summaryRevealChapter": 50,
-          "abilitiesRevealChapter": 70,
-          "summary": "Вход в чужие сны, наведение кошмаров.",
+          "abilitiesRevealChapter": 50,
+          "summary": "Специалист по проникновению в кошмары и воздействию на цели через сон и духовное пространство.",
           "abilities": [
-            "Вторжение в сны",
-            "Наведение кошмаров"
+            "Способность создавать или навязывать кошмарные сновидения.",
+            "Усиленное духовное восприятие и боевые характеристики.",
+            "Может использовать сновидения как источник информации, но не получает всеведения."
           ],
           "potion": {
             "known": false,
@@ -1786,7 +2169,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sleepless-5",
@@ -1805,7 +2189,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sleepless-4",
@@ -1824,7 +2209,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sleepless-3",
@@ -1843,7 +2229,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sleepless-2",
@@ -1862,7 +2249,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sleepless-1",
@@ -1881,7 +2269,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "sleepless-0",
@@ -1900,10 +2289,14 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Бессонного",
+      "displayEnglishName": "Sleepless Pathway",
+      "displayNameRevealChapter": 31
     },
     {
       "id": "corpse-collector",
@@ -1920,12 +2313,12 @@
           "englishName": "Corpse Collector",
           "revealChapter": 30,
           "summaryRevealChapter": 30,
-          "abilitiesRevealChapter": 40,
-          "summary": "Устойчивость к страху смерти, восприятие духов.",
+          "abilitiesRevealChapter": 30,
+          "summary": "Работа с трупами и нечистью даёт физическую выносливость, устойчивость к тлетворным влияниям и особое восприятие смерти.",
           "abilities": [
-            "Устойчивость к ужасу смерти",
-            "Восприятие духов и останков",
-            "Базовые ритуалы упокоения"
+            "Усиление физической формы и устойчивости к холоду.",
+            "Духовное зрение и более глубокое понимание трупов и нежити.",
+            "Устойчивость к некоторым негативным аурами, связанным со смертью."
           ],
           "potion": {
             "known": false,
@@ -1941,11 +2334,15 @@
           "number": 8,
           "name": "Могильщик",
           "englishName": "Gravedigger",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 96,
+          "summaryRevealChapter": 96,
+          "abilitiesRevealChapter": 96,
+          "summary": "Могильщик получает более сильную связь с духами умерших и способен выявлять слабости нежити.",
+          "abilities": [
+            "Улучшенное физическое и духовное состояние.",
+            "Способность общаться с духами и воздействовать на них.",
+            "Особое восприятие, позволяющее находить слабые места некоторых неживых существ."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -1953,18 +2350,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 96
         },
         {
           "id": "corpse-collector-7",
           "number": 7,
           "name": "Медиум духов",
           "englishName": "Spirit Medium",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 14,
+          "summaryRevealChapter": 14,
+          "abilitiesRevealChapter": 14,
+          "summary": "Медиум духов может вступать в контакт с духами и умершими и использовать духовность для ритуальной работы.",
+          "abilities": [
+            "Видение духовных сущностей и способность вступать с ними в контакт.",
+            "Духовный канал для получения сведений от духов и умерших.",
+            "Более сильная связь с миром духов; контакт не гарантирует правдивость ответа."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -1972,18 +2374,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 14
         },
         {
           "id": "corpse-collector-6",
           "number": 6,
           "name": "Проводник духов",
           "englishName": "Spirit Guide",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 96,
+          "summaryRevealChapter": 96,
+          "abilitiesRevealChapter": 96,
+          "summary": "Проводник духов лучше управляет нежитью и использует язык мёртвых для воздействия на духов и тела.",
+          "abilities": [
+            "Язык мёртвых может вынуждать дух покидать тело.",
+            "Воздействие на группы нежити и усиленная духовная связь.",
+            "Улучшенное понимание существ, связанных со смертью."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -1991,7 +2398,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 96
         },
         {
           "id": "corpse-collector-5",
@@ -2010,7 +2418,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "corpse-collector-4",
@@ -2029,7 +2438,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "corpse-collector-3",
@@ -2048,7 +2458,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "corpse-collector-2",
@@ -2067,7 +2478,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "corpse-collector-1",
@@ -2086,7 +2498,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "corpse-collector-0",
@@ -2105,10 +2518,14 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Собирателя трупов",
+      "displayEnglishName": "Corpse Collector Pathway",
+      "displayNameRevealChapter": 30
     },
     {
       "id": "warrior",
@@ -2139,7 +2556,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "???",
-          "notes": "Город Серебра активно использует этот путь. Формула на срезе может быть ещё неизвестна Клубу."
+          "notes": "Город Серебра активно использует этот путь. Формула на срезе может быть ещё неизвестна Клубу.",
+          "notesRevealChapter": 138
         },
         {
           "id": "warrior-8",
@@ -2158,7 +2576,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "warrior-7",
@@ -2177,15 +2596,16 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "warrior-6",
           "number": 6,
           "name": "Паладин рассвета",
           "englishName": "Dawn Paladin",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
+          "revealChapter": 308,
+          "summaryRevealChapter": 308,
           "abilitiesRevealChapter": 1433,
           "summary": "",
           "abilities": [],
@@ -2196,7 +2616,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 308
         },
         {
           "id": "warrior-5",
@@ -2215,15 +2636,16 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "warrior-4",
           "number": 4,
           "name": "Охотник на демонов",
           "englishName": "Demon Hunter",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
+          "revealChapter": 361,
+          "summaryRevealChapter": 361,
           "abilitiesRevealChapter": 1433,
           "summary": "",
           "abilities": [],
@@ -2234,7 +2656,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 361
         },
         {
           "id": "warrior-3",
@@ -2253,7 +2676,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "warrior-2",
@@ -2272,7 +2696,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "warrior-1",
@@ -2291,7 +2716,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "warrior-0",
@@ -2310,10 +2736,14 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Воина",
+      "displayEnglishName": "Warrior Pathway",
+      "displayNameRevealChapter": 138
     },
     {
       "id": "red-priest",
@@ -2327,11 +2757,15 @@
           "number": 9,
           "name": "Охотник",
           "englishName": "Hunter",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 311,
+          "summaryRevealChapter": 311,
+          "abilitiesRevealChapter": 311,
+          "summary": "Боец и провокатор, хорошо приспособленный к конфликту; сила сочетается с инстинктом охотника.",
+          "abilities": [
+            "Улучшенные физические характеристики и боевые рефлексы.",
+            "Острый инстинкт преследования и поиска уязвимостей.",
+            "Хорошо чувствует атмосферу конфликта и может провоцировать столкновения."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -2339,18 +2773,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 311
         },
         {
           "id": "red-priest-8",
           "number": 8,
           "name": "Провокатор",
           "englishName": "Provoker",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 311,
+          "summaryRevealChapter": 311,
+          "abilitiesRevealChapter": 311,
+          "summary": "Провокатор умеет разжигать эмоции и конфликты, побуждая людей действовать импульсивно.",
+          "abilities": [
+            "Провокация и усиление уже существующих эмоций.",
+            "Физическое усиление и агрессивный стиль боя.",
+            "Умение выводить противника из равновесия словами и поведением."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -2358,26 +2797,36 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 311
         },
         {
           "id": "red-priest-7",
           "number": 7,
           "name": "Пироманьяк",
           "englishName": "Pyromaniac",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 499,
+          "summaryRevealChapter": 499,
+          "abilitiesRevealChapter": 499,
+          "summary": "Пироманьяк сочетает боевое усиление с управлением огнём. Пламя полезно не только для нанесения урона, но и для давления, запугивания, отвлечения и подготовки ловушек.",
+          "abilities": [
+            "Пирокинез: создавать и направлять пламя в пределах доступного радиуса и контроля.",
+            "Повышенная духовность и более точное включение духовного зрения.",
+            "Усиленная интуиция опасности, в том числе возможность заранее замечать слежку.",
+            "Огнём можно управлять хуже по мере удаления от тела; дальний контроль требует дополнительных затрат духовности.",
+            "Физическое усиление и боевые рефлексы пути Охотника сохраняются."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
             "supplementaryIngredients": [],
-            "sourceChapter": null
+            "sourceChapter": null,
+            "formulaStatus": "Формула не внесена: не удалось надёжно подтвердить, что её полный состав был раскрыт в романе до главы 600."
           },
-          "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "actingPrinciple": "Не просто поджигать предметы: использовать разрушение, угрозу и риск как инструмент воздействия на врага и ситуацию. Сам Пироманьяк должен быть готов поставить себя под удар, но обязан учитывать последствия и готовить ловушки.",
+          "notes": "К главам около 499–551 Даниц связан с этой ступенью. Способности сверены по справочным описаниям, но рецепт не показан без проверенной даты раскрытия.",
+          "notesRevealChapter": 499,
+          "actingPrincipleRevealChapter": 499
         },
         {
           "id": "red-priest-6",
@@ -2396,7 +2845,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "red-priest-5",
@@ -2415,7 +2865,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "red-priest-4",
@@ -2434,7 +2885,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "red-priest-3",
@@ -2453,7 +2905,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "red-priest-2",
@@ -2472,7 +2925,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "red-priest-1",
@@ -2491,7 +2945,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "red-priest-0",
@@ -2510,11 +2965,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Охотника",
+      "displayEnglishName": "Hunter Pathway",
+      "displayNameRevealChapter": 311
     },
     {
       "id": "demoness",
@@ -2528,11 +2987,15 @@
           "number": 9,
           "name": "Убийца",
           "englishName": "Assassin",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 267,
+          "summaryRevealChapter": 267,
+          "abilitiesRevealChapter": 267,
+          "summary": "Скрытный боец, ориентированный на убийства из засады, скорость и внезапный удар.",
+          "abilities": [
+            "Улучшенные скорость, ловкость и способность двигаться бесшумно.",
+            "Хорошее зрение в темноте и более лёгкое тело при прыжках/падениях.",
+            "Специализация на засаде и уязвимых местах цели."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -2540,18 +3003,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 267
         },
         {
           "id": "demoness-8",
           "number": 8,
           "name": "Подстрекатель",
           "englishName": "Instigator",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 267,
+          "summaryRevealChapter": 267,
+          "abilitiesRevealChapter": 267,
+          "summary": "Манипулятор, способный провоцировать желания, эмоции и конфликты других людей.",
+          "abilities": [
+            "Воздействие через провокацию и управление эмоциями.",
+            "Улучшенные физические характеристики по сравнению с обычным человеком.",
+            "Способности склонять людей к рискованным действиям; это не гарантированный контроль над разумом."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -2559,18 +3027,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 267
         },
         {
           "id": "demoness-7",
           "number": 7,
           "name": "Ведьма",
           "englishName": "Witch",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 267,
+          "summaryRevealChapter": 267,
+          "abilitiesRevealChapter": 267,
+          "summary": "Ведьма сочетает мистические способности с физической силой и опасным воздействием на других.",
+          "abilities": [
+            "Сильные мистические способности, связанные с проклятиями и магией.",
+            "Расширенная боевая гибкость по сравнению с низкими последовательностями.",
+            "Некоторые эффекты могут иметь долгосрочные последствия; детали раскрываются далее в сюжете."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -2578,7 +3051,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 267
         },
         {
           "id": "demoness-6",
@@ -2597,7 +3071,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "demoness-5",
@@ -2616,7 +3091,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "demoness-4",
@@ -2635,7 +3111,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "demoness-3",
@@ -2654,7 +3131,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "demoness-2",
@@ -2673,7 +3151,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "demoness-1",
@@ -2692,7 +3171,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "demoness-0",
@@ -2711,11 +3191,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Убийцы",
+      "displayEnglishName": "Assassin Pathway",
+      "displayNameRevealChapter": 267
     },
     {
       "id": "hermit",
@@ -2741,7 +3225,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hermit-8",
@@ -2760,7 +3245,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hermit-7",
@@ -2779,7 +3265,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hermit-6",
@@ -2798,7 +3285,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hermit-5",
@@ -2817,7 +3305,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hermit-4",
@@ -2836,7 +3325,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hermit-3",
@@ -2855,7 +3345,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hermit-2",
@@ -2874,7 +3365,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hermit-1",
@@ -2893,7 +3385,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "hermit-0",
@@ -2912,11 +3405,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Тайноискателя",
+      "displayEnglishName": "Mystery Pryer Pathway",
+      "displayNameRevealChapter": 1433
     },
     {
       "id": "paragon",
@@ -2942,7 +3439,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "paragon-8",
@@ -2961,7 +3459,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "paragon-7",
@@ -2980,7 +3479,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "paragon-6",
@@ -2999,7 +3499,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "paragon-5",
@@ -3018,7 +3519,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "paragon-4",
@@ -3037,7 +3539,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "paragon-3",
@@ -3056,7 +3559,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "paragon-2",
@@ -3075,7 +3579,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "paragon-1",
@@ -3094,7 +3599,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "paragon-0",
@@ -3113,11 +3619,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Саванта",
+      "displayEnglishName": "Savant Pathway",
+      "displayNameRevealChapter": 1433
     },
     {
       "id": "wheel-of-fortune",
@@ -3143,7 +3653,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "wheel-of-fortune-8",
@@ -3162,7 +3673,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "wheel-of-fortune-7",
@@ -3181,7 +3693,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "wheel-of-fortune-6",
@@ -3200,7 +3713,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "wheel-of-fortune-5",
@@ -3219,7 +3733,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "wheel-of-fortune-4",
@@ -3238,7 +3753,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "wheel-of-fortune-3",
@@ -3257,7 +3773,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "wheel-of-fortune-2",
@@ -3276,7 +3793,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "wheel-of-fortune-1",
@@ -3295,7 +3813,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "wheel-of-fortune-0",
@@ -3314,11 +3833,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Монстра",
+      "displayEnglishName": "Monster Pathway",
+      "displayNameRevealChapter": 1433
     },
     {
       "id": "moon",
@@ -3332,30 +3855,50 @@
           "number": 9,
           "name": "Аптекарь",
           "englishName": "Apothecary",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 315,
+          "summaryRevealChapter": 315,
+          "abilitiesRevealChapter": 315,
+          "summary": "Аптекарь знает травы, лекарства и составление зелий; духовное зрение помогает оценивать состояние организма.",
+          "abilities": [
+            "Знание лечебных трав, ядов и приготовления смесей.",
+            "Духовное зрение помогает диагностировать здоровье и аномалии.",
+            "Повышенная устойчивость к некоторым токсинам; умеренное усиление физических качеств."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Рог взрослого летающего единорога",
+              "3 г кристаллизованного яда королевской медузы"
+            ],
+            "supplementaryIngredients": [
+              "100 мл крови взрослого летающего единорога",
+              "7 щупалец королевской медузы",
+              "10 г порошка мышьяка",
+              "10 г корня белены чёрной"
+            ],
+            "sourceChapter": 315,
+            "formulaStatus": "Формула и природные ингредиенты описаны в справочной статье; доступность сведений в сюжете ограничена главами с линией Эмлина.",
+            "alternative": "Характеристика Аптекаря заменяет основные ингредиенты.",
+            "formulaRevealChapter": 315
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 315
         },
         {
           "id": "moon-8",
           "number": 8,
           "name": "Укротитель зверей",
           "englishName": "Beast Tamer",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 315,
+          "summaryRevealChapter": 315,
+          "abilitiesRevealChapter": 315,
+          "summary": "Укротитель зверей способен приручать животных и лучше понимать их эмоции и намерения.",
+          "abilities": [
+            "Приручение и управление некоторыми животными.",
+            "Чтение эмоций и намерений зверей.",
+            "Значительное усиление физических характеристик."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -3363,18 +3906,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 315
         },
         {
           "id": "moon-7",
           "number": 7,
           "name": "Вампир",
           "englishName": "Vampire",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 315,
+          "summaryRevealChapter": 315,
+          "abilitiesRevealChapter": 315,
+          "summary": "Вампир обладает долгой жизнью, улучшенными чувствами и физическими характеристиками.",
+          "abilities": [
+            "Повышенная сила, скорость и выносливость.",
+            "Острое обоняние и слух; способность замечать изменения запаха и сердцебиения.",
+            "Долголетие и характерные особенности сангвинов; конкретные ограничения зависят от вида."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -3382,26 +3930,45 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 315
         },
         {
           "id": "moon-6",
           "number": 6,
           "name": "Профессор зелий",
           "englishName": "Potions Professor",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 592,
+          "summaryRevealChapter": 592,
+          "abilitiesRevealChapter": 592,
+          "summary": "Профессор зелий усиливает свои алхимические способности и может получать разнообразные эффекты от приготовленных напитков.",
+          "abilities": [
+            "Улучшенные слух, обоняние и обнаружение телесных изменений.",
+            "Продвинутая алхимия и приготовление сложных зелий.",
+            "Способность применять приготовленные зелья для получения разнообразных эффектов; состав и качество имеют значение."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Наследие сангвина-барона или искусственного вампира этой ступени",
+              "ИЛИ мозг гигантского чудовища-мудреца и крылья тёмной летучей мыши"
+            ],
+            "supplementaryIngredients": [
+              "100 мл крови гигантского чудовища-мудреца (либо крови соответствующего сангвина-барона/искусственного вампира)",
+              "7 волосков тёмной летучей мыши или эквивалентный материал",
+              "10 капель эфирного масла июньского снега",
+              "Одно зелье, самостоятельно созданное потребителем"
+            ],
+            "sourceChapter": 592,
+            "appearance": "Напоминает багровую луну, опускающуюся в стакан воды: цвет темнее в центре и светлее по краям; обладает сильным раздражающим эффектом.",
+            "appearanceRevealChapter": 592,
+            "formulaStatus": "Формула появляется в сюжетной линии Эмлина приблизительно к главе 592.",
+            "alternative": "Характеристика Профессора зелий заменяет основные ингредиенты.",
+            "formulaRevealChapter": 592
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 592
         },
         {
           "id": "moon-5",
@@ -3420,7 +3987,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "moon-4",
@@ -3439,7 +4007,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "moon-3",
@@ -3458,7 +4027,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "moon-2",
@@ -3477,7 +4047,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "moon-1",
@@ -3496,7 +4067,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "moon-0",
@@ -3515,11 +4087,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Аптекаря",
+      "displayEnglishName": "Apothecary Pathway",
+      "displayNameRevealChapter": 315
     },
     {
       "id": "mother",
@@ -3545,7 +4121,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "mother-8",
@@ -3564,7 +4141,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "mother-7",
@@ -3583,7 +4161,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "mother-6",
@@ -3602,7 +4181,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "mother-5",
@@ -3621,7 +4201,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "mother-4",
@@ -3640,7 +4221,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "mother-3",
@@ -3659,7 +4241,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "mother-2",
@@ -3678,7 +4261,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "mother-1",
@@ -3697,7 +4281,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "mother-0",
@@ -3716,11 +4301,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Садовника",
+      "displayEnglishName": "Planter Pathway",
+      "displayNameRevealChapter": 1433
     },
     {
       "id": "abyss",
@@ -3746,7 +4335,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "abyss-8",
@@ -3765,7 +4355,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "abyss-7",
@@ -3784,15 +4375,16 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "abyss-6",
           "number": 6,
           "name": "Дьявол",
           "englishName": "Devil",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
+          "revealChapter": 311,
+          "summaryRevealChapter": 311,
           "abilitiesRevealChapter": 1433,
           "summary": "",
           "abilities": [],
@@ -3803,15 +4395,16 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 311
         },
         {
           "id": "abyss-5",
           "number": 5,
           "name": "Апостол желания",
           "englishName": "Desire Apostle",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
+          "revealChapter": 380,
+          "summaryRevealChapter": 380,
           "abilitiesRevealChapter": 1433,
           "summary": "",
           "abilities": [],
@@ -3822,7 +4415,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 380
         },
         {
           "id": "abyss-4",
@@ -3841,7 +4435,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "abyss-3",
@@ -3860,7 +4455,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "abyss-2",
@@ -3879,7 +4475,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "abyss-1",
@@ -3898,7 +4495,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "abyss-0",
@@ -3917,11 +4515,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Преступника",
+      "displayEnglishName": "Criminal Pathway",
+      "displayNameRevealChapter": 311
     },
     {
       "id": "chained",
@@ -3935,11 +4537,15 @@
           "number": 9,
           "name": "Заключённый",
           "englishName": "Prisoner",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 250,
+          "summaryRevealChapter": 250,
+          "abilitiesRevealChapter": 250,
+          "summary": "Путь, связанный с ограничениями, изменениями тела и духовной нестабильностью.",
+          "abilities": [
+            "Повышенные физические характеристики.",
+            "Особая связь с ограничениями и изменёнными состояниями тела.",
+            "Путь несёт повышенный риск психических и физических искажений."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -3947,18 +4553,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 250
         },
         {
           "id": "chained-8",
           "number": 8,
           "name": "Лунатик",
           "englishName": "Lunatic",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 250,
+          "summaryRevealChapter": 250,
+          "abilitiesRevealChapter": 250,
+          "summary": "Лунатик обладает более выраженными сверхъестественными и психическими особенностями.",
+          "abilities": [
+            "Усиленные физические характеристики.",
+            "Изменённое состояние сна и восприятия.",
+            "Повышенный риск потери контроля над собственной природой."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -3966,18 +4577,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 250
         },
         {
           "id": "chained-7",
           "number": 7,
           "name": "Оборотень",
           "englishName": "Werewolf",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 250,
+          "summaryRevealChapter": 250,
+          "abilitiesRevealChapter": 250,
+          "summary": "Оборотень получает сильное физическое усиление и способности трансформировать тело.",
+          "abilities": [
+            "Повышенная сила, скорость и регенерация.",
+            "Трансформация тела с сохранением сверхъестественных особенностей.",
+            "Уязвимости и импульсивность зависят от степени контроля."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -3985,18 +4601,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 250
         },
         {
           "id": "chained-6",
           "number": 6,
           "name": "Зомби",
           "englishName": "Zombie",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 250,
+          "summaryRevealChapter": 250,
+          "abilitiesRevealChapter": 250,
+          "summary": "Зомби сохраняет подвижность и сверхъестественную силу при характеристиках, связанных с нежитью.",
+          "abilities": [
+            "Усиленная физическая сила и высокая стойкость.",
+            "Снижение чувствительности к обычным повреждениям.",
+            "Связь с нежитью и изменённой физиологией."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -4004,18 +4625,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 250
         },
         {
           "id": "chained-5",
           "number": 5,
           "name": "Призрак",
           "englishName": "Wraith",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 250,
+          "summaryRevealChapter": 250,
+          "abilitiesRevealChapter": 250,
+          "summary": "Призрак использует духовное тело, проникновение и сверхъестественные способы взаимодействия с окружающим миром.",
+          "abilities": [
+            "Состояние тела позволяет проходить через часть физических препятствий при соблюдении ограничений.",
+            "Духовные и призрачные воздействия.",
+            "Низкая последовательность не даёт полной неуязвимости и не отменяет мистических контрмер."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -4023,7 +4649,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 250
         },
         {
           "id": "chained-4",
@@ -4042,7 +4669,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "chained-3",
@@ -4061,7 +4689,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "chained-2",
@@ -4080,7 +4709,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "chained-1",
@@ -4099,7 +4729,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "chained-0",
@@ -4118,11 +4749,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Заключённого",
+      "displayEnglishName": "Prisoner Pathway",
+      "displayNameRevealChapter": 250
     },
     {
       "id": "black-emperor",
@@ -4148,7 +4783,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "black-emperor-8",
@@ -4167,7 +4803,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "black-emperor-7",
@@ -4186,18 +4823,23 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "black-emperor-6",
           "number": 6,
           "name": "Барон коррупции",
           "englishName": "Baron of Corruption",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 380,
+          "summaryRevealChapter": 380,
+          "abilitiesRevealChapter": 380,
+          "summary": "Путь искажает правила и причинно-следственные связи; на низких последовательностях этой ветки проявляются коррупция и нарушение нормы.",
+          "abilities": [
+            "Способности к нарушению и использованию установленных правил.",
+            "Манипуляция договорами, порядком и последствиями при соблюдении мистических условий.",
+            "Полноценные эффекты сильно зависят от последовательности и в этом срезе не раскрываются полностью."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -4205,7 +4847,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 380
         },
         {
           "id": "black-emperor-5",
@@ -4224,7 +4867,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "black-emperor-4",
@@ -4243,7 +4887,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "black-emperor-3",
@@ -4262,7 +4907,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "black-emperor-2",
@@ -4281,7 +4927,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "black-emperor-1",
@@ -4300,7 +4947,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "black-emperor-0",
@@ -4319,11 +4967,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Адвоката",
+      "displayEnglishName": "Lawyer Pathway",
+      "displayNameRevealChapter": 380
     },
     {
       "id": "justiciar",
@@ -4337,11 +4989,15 @@
           "number": 9,
           "name": "Арбитр",
           "englishName": "Arbiter",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 406,
+          "summaryRevealChapter": 406,
+          "abilitiesRevealChapter": 406,
+          "summary": "Арбитр инстинктивно чувствует правила и порядок; власть и формулировка требований могут влиять на окружающих.",
+          "abilities": [
+            "Улучшенные физические характеристики и боевые навыки.",
+            "Интуитивное понимание правил, порядка и нарушений.",
+            "Слова и распоряжения могут оказывать давление, но не равны безусловному контролю."
+          ],
           "potion": {
             "known": false,
             "mainIngredients": [],
@@ -4349,26 +5005,43 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 406
         },
         {
           "id": "justiciar-8",
           "number": 8,
           "name": "Шериф",
           "englishName": "Sheriff",
-          "revealChapter": 1433,
-          "summaryRevealChapter": 1433,
-          "abilitiesRevealChapter": 1433,
-          "summary": "",
-          "abilities": [],
+          "revealChapter": 406,
+          "summaryRevealChapter": 406,
+          "abilitiesRevealChapter": 406,
+          "summary": "Шериф сочетает физическую подготовку с интуитивным поиском преступников и аномалий.",
+          "abilities": [
+            "Улучшенные боевые навыки и физическая подготовка.",
+            "Мистическое чутьё помогает обнаруживать нарушения порядка и следы преступлений.",
+            "Может лучше отслеживать цель и оценивать опасность ситуации."
+          ],
           "potion": {
-            "known": false,
-            "mainIngredients": [],
-            "supplementaryIngredients": [],
-            "sourceChapter": null
+            "known": true,
+            "mainIngredients": [
+              "Пара глаз демонического червя ужаса",
+              "Правая лапа серебристо-белого военного медведя"
+            ],
+            "supplementaryIngredients": [
+              "100 мл крови серебристо-белого военного медведя",
+              "20 мл жидкости демонического червя ужаса",
+              "Документ о назначении шерифом или на сходную должность",
+              "10 капель эфирного масла физалиса"
+            ],
+            "sourceChapter": 406,
+            "formulaStatus": "Формула приобретена персонажем в главе 406; не означает, что персонаж уже выпил зелье.",
+            "alternative": "Характеристика Шерифа заменяет основные ингредиенты.",
+            "formulaRevealChapter": 406
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 406
         },
         {
           "id": "justiciar-7",
@@ -4387,7 +5060,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "justiciar-6",
@@ -4406,7 +5080,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "justiciar-5",
@@ -4425,7 +5100,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "justiciar-4",
@@ -4444,7 +5120,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "justiciar-3",
@@ -4463,7 +5140,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "justiciar-2",
@@ -4482,7 +5160,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "justiciar-1",
@@ -4501,7 +5180,8 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         },
         {
           "id": "justiciar-0",
@@ -4520,11 +5200,15 @@
             "sourceChapter": null
           },
           "actingPrinciple": "",
-          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив.",
+          "notesRevealChapter": 1433
         }
       ],
       "description": "",
-      "revealChapter": 1433
+      "revealChapter": 1433,
+      "displayName": "Путь Арбитра",
+      "displayEnglishName": "Arbiter Pathway",
+      "displayNameRevealChapter": 406
     }
   ],
   "characters": [
@@ -4536,15 +5220,24 @@
         "The Fool"
       ],
       "revealChapter": 1,
-      "description": "Главный герой, основатель Клуба Таро (Шут).",
+      "description": "Главный герой. Связь с Потусторонними постепенно раскрывается в первых главах.",
+      "descriptionRevealChapter": 1,
       "advancements": [
         {
-          "chapter": 1,
+          "chapter": 32,
           "sequenceId": "fool-9"
         },
         {
-          "chapter": 169,
+          "chapter": 168,
           "sequenceId": "fool-8"
+        },
+        {
+          "chapter": 295,
+          "sequenceId": "fool-7"
+        },
+        {
+          "chapter": 451,
+          "sequenceId": "fool-6"
         }
       ]
     },
@@ -4556,15 +5249,20 @@
         "Justice"
       ],
       "revealChapter": 7,
-      "description": "Справедливость в Клубе Таро. Путь Зрителя.",
+      "description": "Дочь графа и участница Клуба Таро под прозвищем Справедливость.",
+      "descriptionRevealChapter": 7,
       "advancements": [
         {
-          "chapter": 7,
+          "chapter": 41,
           "sequenceId": "spectator-9"
         },
         {
-          "chapter": 150,
+          "chapter": 221,
           "sequenceId": "spectator-8"
+        },
+        {
+          "chapter": 519,
+          "sequenceId": "spectator-7"
         }
       ]
     },
@@ -4576,11 +5274,12 @@
         "The Hanged Man"
       ],
       "revealChapter": 7,
-      "description": "Повешенный в Клубе Таро. Путь Моряка.",
+      "description": "Опытный Потусторонний Морского пути, участник Клуба Таро и капитан. Точная последовательность раскрывается читателю позднее его первого появления.",
+      "descriptionRevealChapter": 311,
       "advancements": [
         {
-          "chapter": 7,
-          "sequenceId": "sailor-9"
+          "chapter": 311,
+          "sequenceId": "sailor-7"
         }
       ]
     },
@@ -4592,11 +5291,20 @@
         "The Sun"
       ],
       "revealChapter": 138,
-      "description": "Солнце в Клубе Таро. Юноша из Города Серебра, Путь Солнца.",
+      "description": "Юноша из Города Серебра, участник Клуба Таро под прозвищем Солнце.",
+      "descriptionRevealChapter": 138,
       "advancements": [
         {
-          "chapter": 158,
+          "chapter": 157,
           "sequenceId": "sun-9"
+        },
+        {
+          "chapter": 290,
+          "sequenceId": "sun-8"
+        },
+        {
+          "chapter": 584,
+          "sequenceId": "sun-7"
         }
       ]
     },
@@ -4607,10 +5315,11 @@
         "Dunn Smith"
       ],
       "revealChapter": 1,
-      "description": "Капитан Nighthawks в Тингене. Кошмар (Seq. 7).",
+      "description": "Капитан Ночных ястребов в Тингене.",
+      "descriptionRevealChapter": 1,
       "advancements": [
         {
-          "chapter": 1,
+          "chapter": 50,
           "sequenceId": "sleepless-7"
         }
       ]
@@ -4622,11 +5331,16 @@
         "Leonard Mitchell"
       ],
       "revealChapter": 1,
-      "description": "Nighthawk, поэт. Поэт Полночи (Seq. 8).",
+      "description": "Ночной ястреб и поэт, работающий вместе с Клейном.",
+      "descriptionRevealChapter": 1,
       "advancements": [
         {
-          "chapter": 1,
+          "chapter": 40,
           "sequenceId": "sleepless-8"
+        },
+        {
+          "chapter": 364,
+          "sequenceId": "sleepless-7"
         }
       ]
     },
@@ -4637,7 +5351,8 @@
         "Frye"
       ],
       "revealChapter": 30,
-      "description": "Nighthawk, работа с трупами.",
+      "description": "Ночной ястреб, участвующий в работе с трупами и следами мистических инцидентов.",
+      "descriptionRevealChapter": 30,
       "advancements": [
         {
           "chapter": 30,
@@ -4652,61 +5367,361 @@
         "Old Neil"
       ],
       "revealChapter": 24,
-      "description": "Nighthawk, учит Клейна мистике.",
+      "description": "Сотрудник Ночных ястребов, обучает Клейна основам мистики.",
+      "descriptionRevealChapter": 24,
       "advancements": []
+    },
+    {
+      "id": "daly",
+      "name": "Дали Симон",
+      "aliases": [
+        "Daly Simone"
+      ],
+      "revealChapter": 14,
+      "description": "Медиум из Ночных ястребов; умеет работать с духами и умершими.",
+      "descriptionRevealChapter": 14,
+      "advancements": [
+        {
+          "chapter": 14,
+          "sequenceId": "corpse-collector-7"
+        },
+        {
+          "chapter": 96,
+          "sequenceId": "corpse-collector-6"
+        }
+      ]
+    },
+    {
+      "id": "rosago",
+      "name": "Росагго",
+      "aliases": [
+        "Rosago"
+      ],
+      "revealChapter": 103,
+      "description": "Потусторонний противник Клейна, известный в связи с нападением на него.",
+      "descriptionRevealChapter": 103,
+      "advancements": [
+        {
+          "chapter": 103,
+          "sequenceId": "fool-5"
+        }
+      ]
+    },
+    {
+      "id": "sirius",
+      "name": "Сириус Арапес",
+      "aliases": [
+        "Sirius Arapis"
+      ],
+      "revealChapter": 103,
+      "description": "Участник Ордена Авроры, связанный с путём Молящегося тайнам. Его статус Слушателя раскрывается во время тингеньской сюжетной линии.",
+      "descriptionRevealChapter": 103,
+      "advancements": [
+        {
+          "chapter": 103,
+          "sequenceId": "hanged-man-8"
+        }
+      ]
+    },
+    {
+      "id": "fors",
+      "name": "Форс Уолл",
+      "aliases": [
+        "Fors Wall",
+        "Magician"
+      ],
+      "revealChapter": 43,
+      "description": "Писательница и знакомая Одри; её путь раскрывается позднее.",
+      "descriptionRevealChapter": 43,
+      "advancements": [
+        {
+          "chapter": 340,
+          "sequenceId": "door-9"
+        },
+        {
+          "chapter": 542,
+          "sequenceId": "door-8"
+        }
+      ]
+    },
+    {
+      "id": "emlyn",
+      "name": "Эмлин Уайт",
+      "aliases": [
+        "Emlyn White"
+      ],
+      "revealChapter": 315,
+      "description": "Сангвин, связанный с Церковью Матери-Земли; позже взаимодействует с Клубом Таро.",
+      "descriptionRevealChapter": 315,
+      "advancements": [
+        {
+          "chapter": 315,
+          "sequenceId": "moon-7"
+        },
+        {
+          "chapter": 592,
+          "sequenceId": "moon-6"
+        }
+      ]
+    },
+    {
+      "id": "xio",
+      "name": "Хио Дереча",
+      "aliases": [
+        "Xio Derecha"
+      ],
+      "revealChapter": 406,
+      "description": "Наёмница, связанная с МИ-9; её путь раскрывается при линии формулы Шерифа.",
+      "descriptionRevealChapter": 406,
+      "advancements": [
+        {
+          "chapter": 406,
+          "sequenceId": "justiciar-9"
+        }
+      ]
+    },
+    {
+      "id": "maric",
+      "name": "Марик",
+      "aliases": [
+        "Maric"
+      ],
+      "revealChapter": 250,
+      "description": "Потусторонний из круга Шэрон; известен своей нечеловеческой физической природой.",
+      "descriptionRevealChapter": 250,
+      "advancements": [
+        {
+          "chapter": 250,
+          "sequenceId": "chained-6"
+        }
+      ]
+    },
+    {
+      "id": "sharron",
+      "name": "Шэрон",
+      "aliases": [
+        "Sharron"
+      ],
+      "revealChapter": 250,
+      "description": "Загадочная женщина, связанная с Мариком и потусторонними заданиями.",
+      "descriptionRevealChapter": 250,
+      "advancements": [
+        {
+          "chapter": 250,
+          "sequenceId": "chained-5"
+        }
+      ]
+    },
+    {
+      "id": "colin",
+      "name": "Колин Илиад",
+      "aliases": [
+        "Colin Iliad"
+      ],
+      "revealChapter": 361,
+      "description": "Один из лидеров Города Серебра. Его высокая ступень связана с путём Воина.",
+      "descriptionRevealChapter": 361,
+      "advancements": [
+        {
+          "chapter": 361,
+          "sequenceId": "warrior-4"
+        }
+      ]
+    },
+    {
+      "id": "utravsky",
+      "name": "Утравский",
+      "aliases": [
+        "Utravsky"
+      ],
+      "revealChapter": 308,
+      "description": "Священник, фигурирующий в линии Эмлина и Церкви Матери-Земли.",
+      "descriptionRevealChapter": 308,
+      "advancements": [
+        {
+          "chapter": 308,
+          "sequenceId": "warrior-6"
+        }
+      ]
+    },
+    {
+      "id": "trissy",
+      "name": "Трисси",
+      "aliases": [
+        "Trissy"
+      ],
+      "revealChapter": 267,
+      "description": "Фигура, чья истинная связь с последовательностями раскрывается в районе главы 267.",
+      "descriptionRevealChapter": 267,
+      "advancements": [
+        {
+          "chapter": 267,
+          "sequenceId": "demoness-7"
+        }
+      ]
+    },
+    {
+      "id": "mr-a",
+      "name": "Мистер А",
+      "aliases": [
+        "Mr. A"
+      ],
+      "revealChapter": 130,
+      "description": "Высокопоставленный последователь Авроры; его конкретная ступень известна позднее.",
+      "descriptionRevealChapter": 130,
+      "advancements": [
+        {
+          "chapter": 380,
+          "sequenceId": "hanged-man-5"
+        }
+      ]
+    },
+    {
+      "id": "steve",
+      "name": "Стив",
+      "aliases": [
+        "Steve"
+      ],
+      "revealChapter": 348,
+      "description": "Потусторонний из сюжетной линии Шэрон и Марика.",
+      "descriptionRevealChapter": 348,
+      "advancements": [
+        {
+          "chapter": 348,
+          "sequenceId": "chained-5"
+        }
+      ]
+    },
+    {
+      "id": "isengard",
+      "name": "Айзегард Стэнтон",
+      "aliases": [
+        "Isengard Stanton",
+        "Eye of Wisdom"
+      ],
+      "revealChapter": 157,
+      "description": "Известный детектив Бэклунда, ведущий собрания Потусторонних низших и средних последовательностей под именем «Око Мудрости».",
+      "descriptionRevealChapter": 271,
+      "advancements": [
+        {
+          "chapter": 271,
+          "sequenceId": "white-tower-7"
+        }
+      ]
+    },
+    {
+      "id": "danitz",
+      "name": "Даниц Дюбуа",
+      "aliases": [
+        "Danitz Dubois",
+        "Blazing Danitz"
+      ],
+      "revealChapter": 390,
+      "description": "Пират из команды Адмирала Крови, впоследствии спутник Герхмана Воробья. Его путь связан с Охотником; ранг Пироманьяка обозначается только после соответствующего раскрытия.",
+      "descriptionRevealChapter": 390,
+      "advancements": [
+        {
+          "chapter": 390,
+          "sequenceId": "red-priest-8"
+        },
+        {
+          "chapter": 499,
+          "sequenceId": "red-priest-7"
+        }
+      ]
     }
   ],
   "events": [
     {
+      "id": "tarot-start",
+      "chapter": 7,
+      "title": "Первое собрание Клуба Таро",
+      "description": "Справедливость и Повешенный становятся участниками первых встреч с Шутом.",
+      "type": "event",
+      "typeLabel": "КЛУБ ТАРО"
+    },
+    {
+      "id": "daly-spirit-medium",
+      "chapter": 14,
+      "title": "Дали и медиумизм",
+      "description": "Дали появляется как опытный специалист по духам; её положение на пути Смерти известно в этой сюжетной линии.",
+      "relatedSequenceId": "corpse-collector-7",
+      "characterId": "daly",
+      "type": "character",
+      "typeLabel": "ПЕРСОНАЖ"
+    },
+    {
       "id": "seer-formula",
       "chapter": 31,
       "title": "Формула Провидца",
-      "description": "Раскрыт состав зелья Sequence 9 Пути Шута.",
+      "description": "Раскрывается состав зелья Sequence 9 Пути Провидца.",
       "relatedSequenceId": "fool-9",
       "type": "potion",
       "typeLabel": "ФОРМУЛА"
     },
     {
-      "id": "tarot-start",
-      "chapter": 7,
-      "title": "Клуб Таро",
-      "description": "Шут, Справедливость и Повешенный проводят первые собрания.",
+      "id": "klein-seer",
+      "chapter": 32,
+      "title": "Клейн становится Провидцем",
+      "description": "Клейн принимает зелье Sequence 9 и вступает на путь Провидца.",
+      "relatedSequenceId": "fool-9",
+      "characterId": "klein",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "audrey-spectator",
+      "chapter": 41,
+      "title": "Одри становится Зрителем",
+      "description": "Одри принимает зелье первой последовательности Пути Зрителя.",
+      "relatedSequenceId": "spectator-9",
+      "characterId": "audrey",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "clown-formula",
+      "chapter": 103,
+      "title": "Формула Клоуна",
+      "description": "Клейн получает сведения о зелье Клоуна через спиритический контакт.",
+      "relatedSequenceId": "fool-8",
+      "type": "potion",
+      "typeLabel": "ФОРМУЛА"
+    },
+    {
+      "id": "sirius",
+      "chapter": 103,
+      "title": "Сведения через спиритический контакт",
+      "description": "Становится доступна информация о последователе Авроры Сириусе Арапесе.",
+      "relatedSequenceId": "hanged-man-9",
+      "characterId": "sirius",
       "type": "event",
-      "typeLabel": "СОБЫТИЕ"
+      "typeLabel": "МИСТИКА"
     },
     {
       "id": "derrick-joins",
       "chapter": 138,
-      "title": "Солнце вступает в Клуб",
-      "description": "Деррик Берг из Города Серебра становится «Солнцем». Запрашивает формулу Барда. Знакомит Клуб с историей и Путём Воина.",
+      "title": "Солнце в Клубе Таро",
+      "description": "Деррик Берг из Города Серебра становится участником Клуба под прозвищем Солнце и рассказывает о своём мире.",
       "relatedSequenceId": "sun-9",
       "characterId": "derrick",
       "type": "event",
       "typeLabel": "КЛУБ ТАРО"
     },
     {
-      "id": "bard-formula",
-      "chapter": 138,
-      "title": "Формула Барда",
-      "description": "Деррик получает формулу Sequence 9 Пути Солнца.",
-      "relatedSequenceId": "sun-9",
-      "type": "potion",
-      "typeLabel": "ФОРМУЛА"
-    },
-    {
       "id": "telepathist-formula",
       "chapter": 144,
       "title": "Формула Телепата",
-      "description": "Обмен формулами в Клубе Таро: Телепат (Зритель Seq. 8).",
+      "description": "В Клубе Таро обмениваются формулами; Одри получает сведения о Sequence 8.",
       "relatedSequenceId": "spectator-8",
       "type": "potion",
       "typeLabel": "ФОРМУЛА"
     },
     {
       "id": "derrick-bard",
-      "chapter": 158,
+      "chapter": 157,
       "title": "Деррик становится Бардом",
-      "description": "Деррик выпивает зелье Барда.",
+      "description": "Деррик принимает зелье Sequence 9 Пути Солнца.",
       "relatedSequenceId": "sun-9",
       "characterId": "derrick",
       "type": "advancement",
@@ -4714,13 +5729,153 @@
     },
     {
       "id": "klein-clown",
-      "chapter": 169,
+      "chapter": 168,
       "title": "Клейн становится Клоуном",
       "description": "Клейн продвигается с Провидца на Клоуна.",
       "relatedSequenceId": "fool-8",
       "characterId": "klein",
-      "fromSequence": "Провидец",
-      "toSequence": "Клоун",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "audrey-telepathist",
+      "chapter": 221,
+      "title": "Одри становится Телепатом",
+      "description": "Одри принимает зелье Sequence 8 Пути Зрителя.",
+      "relatedSequenceId": "spectator-8",
+      "characterId": "audrey",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "trissy-reveal",
+      "chapter": 267,
+      "title": "Раскрытие пути Трисси",
+      "description": "Связь Трисси с последовательностями Пути Убийцы становится известна читателю.",
+      "relatedSequenceId": "demoness-7",
+      "characterId": "trissy",
+      "type": "revelation",
+      "typeLabel": "РАСКРЫТИЕ"
+    },
+    {
+      "chapter": 271,
+      "title": "Айзегард Стэнтон — Детектив пути Белой Башни",
+      "description": "В расследовании Шерлока Мориарти раскрывается связь Айзегарда Стэнтона с путём Белой Башни и последовательностью Детектива.",
+      "typeLabel": "Путь и персонаж"
+    },
+    {
+      "id": "derrick-light-suppliant",
+      "chapter": 290,
+      "title": "Деррик становится Молящимся Свету",
+      "description": "Деррик продвигается на Sequence 8 Пути Солнца.",
+      "relatedSequenceId": "sun-8",
+      "characterId": "derrick",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "klein-magician",
+      "chapter": 295,
+      "title": "Клейн становится Магом",
+      "description": "Клейн переходит на Sequence 7 и получает новые подготовительные и мистические приёмы.",
+      "relatedSequenceId": "fool-7",
+      "characterId": "klein",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "emlyn-vampire",
+      "chapter": 315,
+      "title": "Эмлин и путь Аптекаря",
+      "description": "Эмлин представлен как сангвин; сведения о пути Аптекаря становятся частью повествования.",
+      "relatedSequenceId": "moon-7",
+      "characterId": "emlyn",
+      "type": "revelation",
+      "typeLabel": "РАСКРЫТИЕ"
+    },
+    {
+      "id": "fors-apprentice",
+      "chapter": 340,
+      "title": "Путь Форс раскрывается",
+      "description": "Становится известна связь Форс с путём Ученика.",
+      "relatedSequenceId": "door-9",
+      "characterId": "fors",
+      "type": "revelation",
+      "typeLabel": "РАСКРЫТИЕ"
+    },
+    {
+      "id": "leonard-nightmare",
+      "chapter": 364,
+      "title": "Леонард становится Кошмаром",
+      "description": "Леонард продвигается на Sequence 7 Пути Бессонного.",
+      "relatedSequenceId": "sleepless-7",
+      "characterId": "leonard",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "mr-a-shepherd",
+      "chapter": 380,
+      "title": "Ступень Мистера А",
+      "description": "В этой сюжетной части раскрывается связь Мистера А с Sequence 5 Пастырь.",
+      "relatedSequenceId": "hanged-man-5",
+      "characterId": "mr-a",
+      "type": "revelation",
+      "typeLabel": "РАСКРЫТИЕ"
+    },
+    {
+      "id": "xio-sheriff-formula",
+      "chapter": 406,
+      "title": "Формула Шерифа",
+      "description": "Хио получает доступ к формуле Sequence 8; само получение формулы не означает, что зелье уже выпито.",
+      "relatedSequenceId": "justiciar-8",
+      "characterId": "xio",
+      "type": "potion",
+      "typeLabel": "ФОРМУЛА"
+    },
+    {
+      "chapter": 499,
+      "title": "Даниц и Пироманьяк",
+      "description": "В морской сюжетной линии уточняется продвижение Даница по пути Охотника до последовательности Пироманьяка; способности огня внесены отдельно от формулы зелья.",
+      "typeLabel": "Последовательность"
+    },
+    {
+      "id": "audrey-psychiatrist",
+      "chapter": 519,
+      "title": "Одри становится Психиатром",
+      "description": "Одри продвигается на Sequence 7 Пути Зрителя.",
+      "relatedSequenceId": "spectator-7",
+      "characterId": "audrey",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "fors-trickmaster",
+      "chapter": 542,
+      "title": "Форс становится Мастером трюков",
+      "description": "Форс продвигается на Sequence 8 Пути Ученика.",
+      "relatedSequenceId": "door-8",
+      "characterId": "fors",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "derrick-solar-high-priest",
+      "chapter": 584,
+      "title": "Деррик становится Верховным жрецом Солнца",
+      "description": "Деррик достигает Sequence 7; способности нового уровня показаны в этой части книги.",
+      "relatedSequenceId": "sun-7",
+      "characterId": "derrick",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "emlyn-potions-professor",
+      "chapter": 592,
+      "title": "Эмлин и Профессор зелий",
+      "description": "В этой части повествования раскрываются формула и продвижение Эмлина к Sequence 6 Пути Луны.",
+      "relatedSequenceId": "moon-6",
+      "characterId": "emlyn",
       "type": "advancement",
       "typeLabel": "ПРОДВИЖЕНИЕ"
     }

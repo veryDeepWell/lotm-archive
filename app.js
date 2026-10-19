@@ -9,7 +9,7 @@
 
   const pathwayTree = $('#pathwayTree');
   const SVG_NS = 'http://www.w3.org/2000/svg';
-  const STAGE_SIZE = 1320;
+  const STAGE_SIZE = 1480;
   const CENTER = STAGE_SIZE / 2;
   const UNKNOWN = '???';
   const SEQUENCE_ZERO_CHAPTER = 268;
@@ -112,35 +112,49 @@
   function isVisible(item) {
     if (!item) return false;
     if (!state.spoilerSafe) return true;
-    return item.revealChapter == null || item.revealChapter <= state.chapter;
+    const chapter = item.revealChapter;
+    return chapter != null && Number.isFinite(Number(chapter)) && Number(chapter) <= state.chapter;
   }
 
   function isPathwayVisible(pathway) {
     if (!pathway) return false;
     if (!state.spoilerSafe) return true;
     const sequenceZero = (pathway.sequences || []).find(sequence => Number(sequence.number) === 0);
-    // Pathway labels in this catalogue are the Sequence 0 names, so never reveal them early.
-    const revealChapter = pathway.revealChapter ?? sequenceZero?.revealChapter ?? SEQUENCE_ZERO_CHAPTER;
-    return Number(revealChapter) <= state.chapter;
+    return isVisible(sequenceZero);
   }
 
   function canShowField(item, key) {
     if (!state.spoilerSafe) return true;
-    const chapter = item?.[key];
-    if (chapter == null) return true;
-    return chapter <= state.chapter;
+    if (!item) return false;
+    // Missing field-specific dates fall back to the item's own reveal date;
+    // missing reveal dates never silently unlock information.
+    const chapter = item[key] ?? item.revealChapter;
+    return chapter != null && Number.isFinite(Number(chapter)) && Number(chapter) <= state.chapter;
+  }
+
+  function displayPathwayName(pathway, english = false) {
+    if (!pathway) return UNKNOWN;
+    if (!state.spoilerSafe) return textOrUnknown(english ? pathway.englishName : pathway.name);
+    if (canShowField(pathway, 'displayNameRevealChapter')) {
+      return textOrUnknown(english ? pathway.displayEnglishName : pathway.displayName);
+    }
+    if (isPathwayVisible(pathway)) {
+      return textOrUnknown(english ? pathway.englishName : pathway.name);
+    }
+    return UNKNOWN;
   }
 
   function potionKnown(sequence) {
-    const potion = sequence.potion;
+    const potion = sequence?.potion;
     if (!potion?.known) return false;
     if (!state.spoilerSafe) return true;
-    return potion.sourceChapter == null || potion.sourceChapter <= state.chapter;
+    const chapter = potion.formulaRevealChapter ?? potion.sourceChapter;
+    return chapter != null && Number.isFinite(Number(chapter)) && Number(chapter) <= state.chapter;
   }
 
   function characterSequenceAt(character, chapter) {
     const advancements = (character.advancements || [])
-      .filter(advancement => advancement.chapter <= chapter)
+      .filter(advancement => !state.spoilerSafe || advancement.chapter <= chapter)
       .sort((a, b) => b.chapter - a.chapter);
     return advancements[0]?.sequenceId || null;
   }
@@ -182,21 +196,19 @@
       const angleDegrees = -90 + pathwayIndex * (360 / pathways.length);
       const angle = angleDegrees * Math.PI / 180;
       const color = escapeHtml(pathway.color || '#c8a86b');
-      const pathwayVisible = isPathwayVisible(pathway);
-      const lineRadius = 575;
+      const lineRadius = 680;
       const lineX = CENTER + Math.cos(angle) * lineRadius;
       const lineY = CENTER + Math.sin(angle) * lineRadius;
       spokes.push(`<line x1="${CENTER}" y1="${CENTER}" x2="${lineX.toFixed(2)}" y2="${lineY.toFixed(2)}" style="--path-color:${color}" class="radial-spoke"/>`);
 
-      const labelRadius = 610;
+      const labelRadius = 710;
       const labelX = CENTER + Math.cos(angle) * labelRadius;
       const labelY = CENTER + Math.sin(angle) * labelRadius;
       const cosine = Math.cos(angle);
       let labelAlignment = 'label-center';
       if (cosine > 0.28) labelAlignment = 'label-inward-right';
       else if (cosine < -0.28) labelAlignment = 'label-inward-left';
-      const rawPathwayName = pathway.name || pathway.englishName || `Путь ${pathwayIndex + 1}`;
-      const pathwayName = pathwayVisible ? rawPathwayName : UNKNOWN;
+      const pathwayName = displayPathwayName(pathway) || `Путь ${pathwayIndex + 1}`;
       labels.push(`
         <div class="radial-path-label ${labelAlignment}" style="left:${(labelX / STAGE_SIZE * 100).toFixed(3)}%;top:${(labelY / STAGE_SIZE * 100).toFixed(3)}%;--path-color:${color}" title="${escapeHtml(pathwayName)}">
           <span class="radial-path-index">${String(pathwayIndex + 1).padStart(2, '0')}</span>
@@ -204,8 +216,8 @@
         </div>`);
 
       const sequenceByNumber = new Map((pathway.sequences || []).map(sequence => [Number(sequence.number), sequence]));
-      const innerRadius = 175;
-      const outerRadius = 550;
+      const innerRadius = 185;
+      const outerRadius = 640;
 
       for (let index = 0; index < nodeCount; index++) {
         const number = 9 - index;
@@ -216,7 +228,7 @@
         const y = CENTER + Math.sin(angle) * radius;
         const visible = isVisible(sequence);
         const highlighted = visible && potionKnown(sequence);
-        const visibleSequenceName = visible ? (sequence.name || seqLabel(number)) : seqLabel(number);
+        const visibleSequenceName = visible ? (sequence.name || UNKNOWN) : UNKNOWN;
         const title = `${pathwayName} — ${visibleSequenceName}`;
         const nodeClass = [
           'radial-node',
@@ -237,9 +249,9 @@
           <radialGradient id="radialAura"><stop offset="0%" stop-color="#c8a86b" stop-opacity=".16"/><stop offset="100%" stop-color="#c8a86b" stop-opacity="0"/></radialGradient>
         </defs>
         <circle cx="${CENTER}" cy="${CENTER}" r="340" fill="url(#radialAura)"/>
-        <circle class="radial-ring" cx="${CENTER}" cy="${CENTER}" r="175"/>
-        <circle class="radial-ring" cx="${CENTER}" cy="${CENTER}" r="355"/>
-        <circle class="radial-ring radial-ring-outer" cx="${CENTER}" cy="${CENTER}" r="550"/>
+        <circle class="radial-ring" cx="${CENTER}" cy="${CENTER}" r="185"/>
+        <circle class="radial-ring" cx="${CENTER}" cy="${CENTER}" r="410"/>
+        <circle class="radial-ring radial-ring-outer" cx="${CENTER}" cy="${CENTER}" r="640"/>
         ${spokes.join('')}
       </svg>
       ${nodeButtons.join('')}
@@ -265,9 +277,8 @@
     if (!pathway || !sequence) return;
 
     const sequenceVisible = isVisible(sequence);
-    const pathwayVisible = isPathwayVisible(pathway);
-    const visiblePathwayName = pathwayVisible ? textOrUnknown(pathway.name) : UNKNOWN;
-    const visiblePathwayEnglishName = pathwayVisible ? textOrUnknown(pathway.englishName) : UNKNOWN;
+    const visiblePathwayName = displayPathwayName(pathway);
+    const visiblePathwayEnglishName = displayPathwayName(pathway, true);
     const showSummary = sequenceVisible && canShowField(sequence, 'summaryRevealChapter');
     const showAbilities = sequenceVisible && canShowField(sequence, 'abilitiesRevealChapter');
     const showPotion = sequenceVisible && potionKnown(sequence);
@@ -275,6 +286,10 @@
     const visibleSequenceName = sequenceVisible ? textOrUnknown(sequence.name) : UNKNOWN;
     const visibleEnglishName = sequenceVisible ? textOrUnknown(sequence.englishName) : UNKNOWN;
     const showNotes = sequenceVisible && canShowField(sequence, 'notesRevealChapter');
+    const showActing = sequenceVisible && canShowField(sequence, 'actingPrincipleRevealChapter');
+    const showAppearance = showPotion && canShowField(potion, 'appearanceRevealChapter');
+    const showPreparation = showPotion && Boolean(potion.preparation) && canShowField(potion, 'preparationRevealChapter');
+    const showRitual = sequenceVisible && canShowField(sequence, 'advancementRitualRevealChapter');
     const people = sequenceVisible ? charactersOnSequence(sequence.id) : [];
 
     const list = (items, unlocked) => {
@@ -283,17 +298,24 @@
     };
 
     const peopleBlock = people.length
-      ? `<ul class="char-list">${people.map(character => `
-          <li><strong>${escapeHtml(character.name)}</strong><span>${escapeHtml(textOrUnknown(character.description))}</span></li>`).join('')}</ul>`
+      ? `<ul class="char-list">${people.map(character => {
+          const description = canShowField(character, 'descriptionRevealChapter')
+            ? textOrUnknown(character.description)
+            : UNKNOWN;
+          return `<li><strong>${escapeHtml(character.name)}</strong><span>${escapeHtml(description)}</span></li>`;
+        }).join('')}</ul>`
       : `<p class="muted">${UNKNOWN}</p>`;
 
     const missingDataNote = sequenceVisible && !potion.known
-      ? '<p class="detail-hint">Подробные сведения об этой последовательности ещё не внесены в архив.</p>'
+      ? '<p class="detail-hint">Для этой ступени в текущем срезе не внесена проверенная формула.</p>'
+      : '';
+    const formulaStatus = showPotion && potion.formulaStatus
+      ? `<p class="detail-hint">${escapeHtml(potion.formulaStatus)}</p>`
       : '';
 
     $('#detailContent').innerHTML = `
       <div class="detail-kicker">${escapeHtml(visiblePathwayName)} · ${escapeHtml(seqLabel(sequence.number))}</div>
-      <h2 class="detail-title">${escapeHtml(visibleSequenceName)}</h2>
+      <h2 class="detail-title" id="detailTitle">${escapeHtml(visibleSequenceName)}</h2>
       <div class="detail-subtitle">${escapeHtml(visibleEnglishName)} · ${escapeHtml(visiblePathwayEnglishName)}</div>
       <p class="detail-summary">${showSummary ? escapeHtml(textOrUnknown(sequence.summary)) : UNKNOWN}</p>
       ${missingDataNote}
@@ -306,21 +328,30 @@
         <div class="detail-block">
           <h4>ОСНОВНЫЕ ИНГРЕДИЕНТЫ</h4>
           ${list(potion.mainIngredients, showPotion)}
-          <h4 style="margin-top:16px">ДОПОЛНИТЕЛЬНЫЕ</h4>
+          <h4 style="margin-top:16px">ДОПОЛНИТЕЛЬНЫЕ ИНГРЕДИЕНТЫ</h4>
           ${list(potion.supplementaryIngredients, showPotion)}
+          ${showPotion && potion.alternative ? `<p><b>Альтернатива:</b> ${escapeHtml(potion.alternative)}</p>` : ''}
+          ${formulaStatus}
         </div>
       </div>
 
-      <div class="detail-block" style="margin-top:12px">
-        <h4>ПРИНЦИП ДЕЙСТВИЯ</h4>
-        <p>${showSummary ? escapeHtml(textOrUnknown(sequence.actingPrinciple)) : UNKNOWN}</p>
-        ${showPotion && potion.alternative ? `<p><b>Альтернатива:</b> ${escapeHtml(potion.alternative)}</p>` : ''}
-        ${showPotion && potion.preparation ? `<p><b>Приготовление:</b> ${escapeHtml(textOrUnknown(potion.preparation))}</p>` : ''}
+      <div class="detail-columns detail-extra-columns">
+        <div class="detail-block">
+          <h4>ПРИНЦИП ДЕЙСТВИЯ</h4>
+          <p>${showActing ? escapeHtml(textOrUnknown(sequence.actingPrinciple)) : UNKNOWN}</p>
+        </div>
+        <div class="detail-block">
+          <h4>ВНЕШНИЙ ВИД ЗЕЛЬЯ</h4>
+          <p>${showAppearance ? escapeHtml(textOrUnknown(potion.appearance)) : UNKNOWN}</p>
+        </div>
       </div>
 
-      <div class="detail-block" style="margin-top:12px">
+      ${showPreparation ? `<div class="detail-block detail-spaced"><h4>ПРИГОТОВЛЕНИЕ</h4><p>${escapeHtml(potion.preparation)}</p></div>` : ''}
+      ${sequence.advancementRitual ? `<div class="detail-block detail-spaced"><h4>РИТУАЛ ПРОДВИЖЕНИЯ</h4><p>${showRitual ? escapeHtml(textOrUnknown(sequence.advancementRitual)) : UNKNOWN}</p></div>` : ''}
+
+      <div class="detail-block detail-spaced">
         <h4>ПЕРСОНАЖИ НА ЭТОЙ ПОСЛЕДОВАТЕЛЬНОСТИ</h4>
-        <p class="detail-hint">На главе ${state.chapter}. При продвижении персонаж исчезает из списка предыдущей ступени.</p>
+        <p class="detail-hint">На главе ${state.chapter}. Если персонаж продвигается, он переходит в список новой ступени.</p>
         ${peopleBlock}
       </div>
 
@@ -331,7 +362,6 @@
 
   function renderTimeline() {
     const events = (state.data.events || [])
-      .filter(event => event.chapter <= state.chapter)
       .filter(event => !state.spoilerSafe || event.chapter <= state.chapter)
       .sort((a, b) => a.chapter - b.chapter);
 
