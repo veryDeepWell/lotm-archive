@@ -1,0 +1,4728 @@
+{
+  "meta": {
+    "title": "Lord of Mysteries — Interactive Archive",
+    "language": "ru",
+    "demo": true,
+    "chapterLimit": 1432,
+    "scopeNote": "Радиальный каталог 22 путей. До главы 267 включительно отображаются последовательности 9–1; начиная с главы 268 добавляется точка 0. У записей без проверенного момента раскрытия название, способности и сведения остаются скрыты как ???, вместо того чтобы раскрывать каталогические спойлеры по умолчанию.",
+    "sourceNotes": [
+      "Деррик Берг (The Sun) вступает в Клуб Таро в главе 138, запрашивает формулу Барда (Путь Солнца).",
+      "Клейн продвигается в Клоуна около глав 155–169.",
+      "Формула Телепата обменивается вскоре после появления Деррика.",
+      "Город Серебра знакомит Клуб с Путем Воина."
+    ]
+  },
+  "pathways": [
+    {
+      "id": "fool",
+      "name": "Путь Шута",
+      "englishName": "Fool Pathway",
+      "symbol": "◉",
+      "color": "#c8a86b",
+      "description": "Гадание, духовность, иллюзии, скрытность.",
+      "sequences": [
+        {
+          "id": "fool-9",
+          "number": 9,
+          "name": "Провидец",
+          "englishName": "Seer",
+          "revealChapter": 1,
+          "summaryRevealChapter": 1,
+          "abilitiesRevealChapter": 31,
+          "summary": "Духовное зрение, гадание, ритуальная магия. Почти нет боевой силы.",
+          "abilities": [
+            "Духовное зрение",
+            "Гадание",
+            "Усиленная память и духовность",
+            "Базовая ритуальная магия"
+          ],
+          "potion": {
+            "known": true,
+            "mainIngredients": [
+              "10 мл крови лавосского кальмара",
+              "50 г звёздного кристалла"
+            ],
+            "supplementaryIngredients": [
+              "100 мл очищенной воды",
+              "13 капель сока ночной ванили",
+              "7 листьев золотой мяты",
+              "3 капли сока ядовитого болиголова",
+              "9 г порошка драконьей кровавой травы"
+            ],
+            "alternative": "Характеристика Потустороннего Seq. 9",
+            "preparation": "Смешать вспомогательные, затем основные.",
+            "sourceChapter": 31
+          },
+          "actingPrinciple": "Практиковать гадание, помогать толковать знаки, не полагаться на гадание слепо.",
+          "notes": null
+        },
+        {
+          "id": "fool-8",
+          "number": 8,
+          "name": "Клоун",
+          "englishName": "Clown",
+          "revealChapter": 155,
+          "summaryRevealChapter": 155,
+          "abilitiesRevealChapter": 169,
+          "summary": "Контроль тела, ловкость, лицо может не отражать эмоции.",
+          "abilities": [
+            "Повышенная ловкость и контроль мышц",
+            "Сокрытие истинных эмоций",
+            "Улучшенное духовное зрение и гадание"
+          ],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "???",
+          "notes": "Клейн продвигается около глав 155–169.",
+          "notesRevealChapter": 169
+        },
+        {
+          "id": "fool-7",
+          "number": 7,
+          "name": "Маг",
+          "englishName": "Magician",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "fool-6",
+          "number": 6,
+          "name": "Безликий",
+          "englishName": "Faceless",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "fool-5",
+          "number": 5,
+          "name": "Марионеточник",
+          "englishName": "Marionettist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "fool-4",
+          "number": 4,
+          "name": "Чародей-бизарр",
+          "englishName": "Bizarro Sorcerer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "fool-3",
+          "number": 3,
+          "name": "Ученый древности",
+          "englishName": "Scholar of Yore",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "fool-2",
+          "number": 2,
+          "name": "Чудотворец",
+          "englishName": "Miracle Invoker",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "fool-1",
+          "number": 1,
+          "name": "Служитель тайн",
+          "englishName": "Attendant of Mysteries",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "fool-0",
+          "number": 0,
+          "name": "Шут",
+          "englishName": "Fool",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "revealChapter": 1433
+    },
+    {
+      "id": "door",
+      "name": "Путь Ученика",
+      "englishName": "Apprentice Pathway",
+      "symbol": "⌘",
+      "color": "#8e9fd0",
+      "sequences": [
+        {
+          "id": "door-9",
+          "number": 9,
+          "name": "Ученик",
+          "englishName": "Apprentice",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "door-8",
+          "number": 8,
+          "name": "Мастер трюков",
+          "englishName": "Trickmaster",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "door-7",
+          "number": 7,
+          "name": "Астролог",
+          "englishName": "Astrologer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "door-6",
+          "number": 6,
+          "name": "Переписчик",
+          "englishName": "Scribe",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "door-5",
+          "number": 5,
+          "name": "Путешественник",
+          "englishName": "Traveler",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "door-4",
+          "number": 4,
+          "name": "Маг тайн",
+          "englishName": "Secrets Sorcerer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "door-3",
+          "number": 3,
+          "name": "Скиталец",
+          "englishName": "Wanderer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "door-2",
+          "number": 2,
+          "name": "Планоходец",
+          "englishName": "Planeswalker",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "door-1",
+          "number": 1,
+          "name": "Ключ звёзд",
+          "englishName": "Key of Stars",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "door-0",
+          "number": 0,
+          "name": "Дверь",
+          "englishName": "Door",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "error",
+      "name": "Путь Мародёра",
+      "englishName": "Marauder Pathway",
+      "symbol": "⌁",
+      "color": "#aa8ec9",
+      "sequences": [
+        {
+          "id": "error-9",
+          "number": 9,
+          "name": "Мародёр",
+          "englishName": "Marauder",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "error-8",
+          "number": 8,
+          "name": "Аферист",
+          "englishName": "Swindler",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "error-7",
+          "number": 7,
+          "name": "Криптолог",
+          "englishName": "Cryptologist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "error-6",
+          "number": 6,
+          "name": "Похититель огня",
+          "englishName": "Prometheus",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "error-5",
+          "number": 5,
+          "name": "Похититель снов",
+          "englishName": "Dream Stealer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "error-4",
+          "number": 4,
+          "name": "Паразит",
+          "englishName": "Parasite",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "error-3",
+          "number": 3,
+          "name": "Наставник обмана",
+          "englishName": "Mentor of Deceit",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "error-2",
+          "number": 2,
+          "name": "Троянский конь судьбы",
+          "englishName": "Trojan Horse of Destiny",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "error-1",
+          "number": 1,
+          "name": "Червь времени",
+          "englishName": "Worm of Time",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "error-0",
+          "number": 0,
+          "name": "Ошибка",
+          "englishName": "Error",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "spectator",
+      "name": "Путь Зрителя",
+      "englishName": "Spectator Pathway",
+      "symbol": "◎",
+      "color": "#8e9fd0",
+      "description": "Наблюдение, чтение эмоций, работа с разумом.",
+      "sequences": [
+        {
+          "id": "spectator-9",
+          "number": 9,
+          "name": "Зритель",
+          "englishName": "Spectator",
+          "revealChapter": 7,
+          "summaryRevealChapter": 20,
+          "abilitiesRevealChapter": 40,
+          "summary": "Чтение поверхностных эмоций, отстранённость от сцены.",
+          "abilities": [
+            "Наблюдение за эмоциями и мотивами",
+            "Чувствительность к лжи",
+            "Спокойствие и дистанция"
+          ],
+          "potion": {
+            "known": true,
+            "mainIngredients": [
+              "Пара глаз взрослой манхальской рыбы",
+              "35 мл крови бараньего рогатого угря"
+            ],
+            "supplementaryIngredients": [
+              "80 мл очищенной воды",
+              "5 капель эссенции безвременника",
+              "13 г порошка бычьезубой пионы",
+              "7 лепестков эльфийского цветка"
+            ],
+            "preparation": "???",
+            "sourceChapter": 80
+          },
+          "actingPrinciple": "Оставаться зрителем, не выходить на сцену.",
+          "notes": null
+        },
+        {
+          "id": "spectator-8",
+          "number": 8,
+          "name": "Телепат",
+          "englishName": "Telepathist",
+          "revealChapter": 140,
+          "summaryRevealChapter": 140,
+          "abilitiesRevealChapter": 145,
+          "summary": "Углублённое чтение мыслей и эмоций.",
+          "abilities": [
+            "Чтение поверхностных мыслей",
+            "Более точное восприятие эмоций"
+          ],
+          "potion": {
+            "known": true,
+            "mainIngredients": [
+              "Целый гипофиз взрослой семицветной ящерицы-дракона",
+              "10 мл спинномозговой жидкости кролика Фальсмана"
+            ],
+            "supplementaryIngredients": [
+              "100 мл очищенной воды",
+              "5 г почек каштана",
+              "8 г порошка драконьего зуба",
+              "3 чисто-белых эльфийских цветка"
+            ],
+            "preparation": "???",
+            "sourceChapter": 144
+          },
+          "actingPrinciple": "???",
+          "notes": "Формула обменивается в Клубе Таро вскоре после появления Деррика."
+        },
+        {
+          "id": "spectator-7",
+          "number": 7,
+          "name": "Психиатр",
+          "englishName": "Psychiatrist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "spectator-6",
+          "number": 6,
+          "name": "Гипнотизёр",
+          "englishName": "Hypnotist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "spectator-5",
+          "number": 5,
+          "name": "Сновидец",
+          "englishName": "Dreamwalker",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "spectator-4",
+          "number": 4,
+          "name": "Манипулятор",
+          "englishName": "Manipulator",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "spectator-3",
+          "number": 3,
+          "name": "Ткач снов",
+          "englishName": "Dream Weaver",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "spectator-2",
+          "number": 2,
+          "name": "Различающий",
+          "englishName": "Discerner",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "spectator-1",
+          "number": 1,
+          "name": "Автор",
+          "englishName": "Author",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "spectator-0",
+          "number": 0,
+          "name": "Провидец",
+          "englishName": "Visionary",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "revealChapter": 1433
+    },
+    {
+      "id": "sun",
+      "name": "Путь Солнца",
+      "englishName": "Sun Pathway",
+      "symbol": "☼",
+      "color": "#d4a955",
+      "description": "Свет, очищение, гимны. Церковь Вечного Пылающего Солнца. Деррик из Города Серебра идёт этим путём.",
+      "sequences": [
+        {
+          "id": "sun-9",
+          "number": 9,
+          "name": "Бард",
+          "englishName": "Bard",
+          "revealChapter": 138,
+          "summaryRevealChapter": 138,
+          "abilitiesRevealChapter": 150,
+          "summary": "Гимны света: воодушевление союзников, отпугивание нечисти, очищение.",
+          "abilities": [
+            "Пение гимнов, укрепляющих союзников",
+            "Отпугивание и очищение нечисти светом",
+            "Улучшенное телосложение"
+          ],
+          "potion": {
+            "known": true,
+            "mainIngredients": [
+              "Кристаллизованный подсолнух (или перо огненной птицы)",
+              "Камень сирены (или поющий подсолнух)"
+            ],
+            "supplementaryIngredients": [
+              "80 мл красного вина",
+              "Стебель полуденной травы",
+              "5 капель июльского винного сока",
+              "Лист тёмного эльфийского листа"
+            ],
+            "preparation": "???",
+            "sourceChapter": 138
+          },
+          "actingPrinciple": "Воспевать свет, поддерживать других, нести надежду.",
+          "notes": "Формулу Деррик получает в Клубе Таро (глава ~138)."
+        },
+        {
+          "id": "sun-8",
+          "number": 8,
+          "name": "Молящийся Свету",
+          "englishName": "Light Suppliant",
+          "revealChapter": 200,
+          "summaryRevealChapter": 200,
+          "abilitiesRevealChapter": null,
+          "summary": "???",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "???",
+          "notes": "Ещё не раскрыт на текущем демо-срезе."
+        },
+        {
+          "id": "sun-7",
+          "number": 7,
+          "name": "Верховный жрец Солнца",
+          "englishName": "Solar High Priest",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sun-6",
+          "number": 6,
+          "name": "Нотариус",
+          "englishName": "Notary",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sun-5",
+          "number": 5,
+          "name": "Священник Света",
+          "englishName": "Priest of Light",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sun-4",
+          "number": 4,
+          "name": "Незапятнанный",
+          "englishName": "Unshadowed",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sun-3",
+          "number": 3,
+          "name": "Наставник справедливости",
+          "englishName": "Justice Mentor",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sun-2",
+          "number": 2,
+          "name": "Искатель света",
+          "englishName": "Lightseeker",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sun-1",
+          "number": 1,
+          "name": "Белый ангел",
+          "englishName": "White Angel",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sun-0",
+          "number": 0,
+          "name": "Солнце",
+          "englishName": "Sun",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "revealChapter": 1433
+    },
+    {
+      "id": "sailor",
+      "name": "Путь Моряка",
+      "englishName": "Sailor Pathway",
+      "symbol": "♆",
+      "color": "#6faeb5",
+      "description": "Море, буря, сила. Путь Алджера (Повешенный в Клубе Таро). Высокие ступени — Тиран.",
+      "sequences": [
+        {
+          "id": "sailor-9",
+          "number": 9,
+          "name": "Моряк",
+          "englishName": "Sailor",
+          "revealChapter": 20,
+          "summaryRevealChapter": 40,
+          "abilitiesRevealChapter": 60,
+          "summary": "Усиленное тело, плавание, устойчивость к воде и бурям.",
+          "abilities": [
+            "Повышенная сила и выносливость",
+            "Свободное плавание и дыхание под водой (ограниченно)",
+            "Устойчивость к морской среде"
+          ],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "???",
+          "notes": "Алджер Уилсон (The Hanged Man) идёт этим путём."
+        },
+        {
+          "id": "sailor-8",
+          "number": 8,
+          "name": "Народ Ярости",
+          "englishName": "Folk of Rage",
+          "revealChapter": 100,
+          "summaryRevealChapter": 100,
+          "abilitiesRevealChapter": null,
+          "summary": "???",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "???",
+          "notes": null
+        },
+        {
+          "id": "sailor-7",
+          "number": 7,
+          "name": "Мореход",
+          "englishName": "Seafarer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sailor-6",
+          "number": 6,
+          "name": "Благословлённый ветром",
+          "englishName": "Wind-blessed",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sailor-5",
+          "number": 5,
+          "name": "Певец океана",
+          "englishName": "Ocean Songster",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sailor-4",
+          "number": 4,
+          "name": "Погребатель катастроф",
+          "englishName": "Cataclysmic Interrer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sailor-3",
+          "number": 3,
+          "name": "Морской царь",
+          "englishName": "Sea King",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sailor-2",
+          "number": 2,
+          "name": "Бедствие",
+          "englishName": "Calamity",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sailor-1",
+          "number": 1,
+          "name": "Бог грома",
+          "englishName": "Thunder God",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sailor-0",
+          "number": 0,
+          "name": "Тиран",
+          "englishName": "Tyrant",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "revealChapter": 1433
+    },
+    {
+      "id": "hanged-man",
+      "name": "Путь Молящегося тайнам",
+      "englishName": "Secrets Suppliant Pathway",
+      "symbol": "◒",
+      "color": "#b17b91",
+      "sequences": [
+        {
+          "id": "hanged-man-9",
+          "number": 9,
+          "name": "Молящийся тайнам",
+          "englishName": "Secrets Suppliant",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hanged-man-8",
+          "number": 8,
+          "name": "Слушатель",
+          "englishName": "Listener",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hanged-man-7",
+          "number": 7,
+          "name": "Аскет тени",
+          "englishName": "Shadow Ascetic",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hanged-man-6",
+          "number": 6,
+          "name": "Розовый епископ",
+          "englishName": "Rose Bishop",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hanged-man-5",
+          "number": 5,
+          "name": "Пастырь",
+          "englishName": "Shepherd",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hanged-man-4",
+          "number": 4,
+          "name": "Чёрный рыцарь",
+          "englishName": "Black Knight",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hanged-man-3",
+          "number": 3,
+          "name": "Троичный тамплиер",
+          "englishName": "Trinity Templar",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hanged-man-2",
+          "number": 2,
+          "name": "Профанный пресвитер",
+          "englishName": "Profane Presbyter",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hanged-man-1",
+          "number": 1,
+          "name": "Тёмный ангел",
+          "englishName": "Dark Angel",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hanged-man-0",
+          "number": 0,
+          "name": "Повешенный",
+          "englishName": "Hanged Man",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "white-tower",
+      "name": "Путь Чтеца",
+      "englishName": "Reader Pathway",
+      "symbol": "△",
+      "color": "#c6c7db",
+      "sequences": [
+        {
+          "id": "white-tower-9",
+          "number": 9,
+          "name": "Чтец",
+          "englishName": "Reader",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "white-tower-8",
+          "number": 8,
+          "name": "Ученик дедукции",
+          "englishName": "Student of Ratiocination",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "white-tower-7",
+          "number": 7,
+          "name": "Детектив",
+          "englishName": "Detective",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "white-tower-6",
+          "number": 6,
+          "name": "Полимат",
+          "englishName": "Polymath",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "white-tower-5",
+          "number": 5,
+          "name": "Маг мистицизма",
+          "englishName": "Mysticism Magister",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "white-tower-4",
+          "number": 4,
+          "name": "Пророк",
+          "englishName": "Prophet",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "white-tower-3",
+          "number": 3,
+          "name": "Познающий",
+          "englishName": "Cognizer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "white-tower-2",
+          "number": 2,
+          "name": "Ангел мудрости",
+          "englishName": "Wisdom Angel",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "white-tower-1",
+          "number": 1,
+          "name": "Всевидящее око",
+          "englishName": "Omniscient Eye",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "white-tower-0",
+          "number": 0,
+          "name": "Белая башня",
+          "englishName": "White Tower",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "sleepless",
+      "name": "Путь Бессонного",
+      "englishName": "Sleepless Pathway",
+      "symbol": "☾",
+      "color": "#7885b5",
+      "description": "Ночь, бдительность, скрытность. Церковь Богини Ночи.",
+      "sequences": [
+        {
+          "id": "sleepless-9",
+          "number": 9,
+          "name": "Бессонный",
+          "englishName": "Sleepless",
+          "revealChapter": 15,
+          "summaryRevealChapter": 15,
+          "abilitiesRevealChapter": 25,
+          "summary": "Ночное зрение, сила ночью, сон 2–4 часа.",
+          "abilities": [
+            "Видеть в темноте",
+            "Сильнее глубокой ночью",
+            "Сон 2–4 часа в сутки",
+            "Повышенная духовность"
+          ],
+          "potion": {
+            "known": true,
+            "mainIngredients": [
+              "Цветок полуночной красавицы ×1",
+              "Пара глаз шестиногой совы"
+            ],
+            "supplementaryIngredients": [
+              "80 мл крепкого алкоголя",
+              "10 капель масла ночной душистой травы",
+              "3 листа полуночной красавицы",
+              "Кофе или чай (по вкусу)"
+            ],
+            "preparation": "???",
+            "sourceChapter": 25
+          },
+          "actingPrinciple": "Бодрствовать, когда другие спят.",
+          "notes": null
+        },
+        {
+          "id": "sleepless-8",
+          "number": 8,
+          "name": "Поэт Полночи",
+          "englishName": "Midnight Poet",
+          "revealChapter": 40,
+          "summaryRevealChapter": 40,
+          "abilitiesRevealChapter": 50,
+          "summary": "Стихи ночи, влияние на сон.",
+          "abilities": [
+            "Заклинания через стихи",
+            "Влияние на сон и кошмары"
+          ],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "???",
+          "notes": null
+        },
+        {
+          "id": "sleepless-7",
+          "number": 7,
+          "name": "Кошмар",
+          "englishName": "Nightmare",
+          "revealChapter": 50,
+          "summaryRevealChapter": 50,
+          "abilitiesRevealChapter": 70,
+          "summary": "Вход в чужие сны, наведение кошмаров.",
+          "abilities": [
+            "Вторжение в сны",
+            "Наведение кошмаров"
+          ],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "???",
+          "notes": null
+        },
+        {
+          "id": "sleepless-6",
+          "number": 6,
+          "name": "Хранитель души",
+          "englishName": "Soul Assurer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sleepless-5",
+          "number": 5,
+          "name": "Духовный чернокнижник",
+          "englishName": "Spirit Warlock",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sleepless-4",
+          "number": 4,
+          "name": "Ночной дозорный",
+          "englishName": "Nightwatcher",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sleepless-3",
+          "number": 3,
+          "name": "Епископ ужаса",
+          "englishName": "Horror Bishop",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sleepless-2",
+          "number": 2,
+          "name": "Слуга сокрытия",
+          "englishName": "Servant of Concealment",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sleepless-1",
+          "number": 1,
+          "name": "Рыцарь несчастья",
+          "englishName": "Knight of Misfortune",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "sleepless-0",
+          "number": 0,
+          "name": "Тьма",
+          "englishName": "Darkness",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "revealChapter": 1433
+    },
+    {
+      "id": "corpse-collector",
+      "name": "Путь Собирателя трупов",
+      "englishName": "Corpse Collector Pathway",
+      "symbol": "☠",
+      "color": "#879a93",
+      "description": "Смерть, духи, останки.",
+      "sequences": [
+        {
+          "id": "corpse-9",
+          "number": 9,
+          "name": "Собиратель Трупов",
+          "englishName": "Corpse Collector",
+          "revealChapter": 30,
+          "summaryRevealChapter": 30,
+          "abilitiesRevealChapter": 40,
+          "summary": "Устойчивость к страху смерти, восприятие духов.",
+          "abilities": [
+            "Устойчивость к ужасу смерти",
+            "Восприятие духов и останков",
+            "Базовые ритуалы упокоения"
+          ],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "Уважать останки, помогать душам найти покой.",
+          "notes": null
+        },
+        {
+          "id": "corpse-collector-8",
+          "number": 8,
+          "name": "Могильщик",
+          "englishName": "Gravedigger",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "corpse-collector-7",
+          "number": 7,
+          "name": "Медиум духов",
+          "englishName": "Spirit Medium",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "corpse-collector-6",
+          "number": 6,
+          "name": "Проводник духов",
+          "englishName": "Spirit Guide",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "corpse-collector-5",
+          "number": 5,
+          "name": "Привратник",
+          "englishName": "Gatekeeper",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "corpse-collector-4",
+          "number": 4,
+          "name": "Бессмертный",
+          "englishName": "Undying",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "corpse-collector-3",
+          "number": 3,
+          "name": "Перевозчик",
+          "englishName": "Ferryman",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "corpse-collector-2",
+          "number": 2,
+          "name": "Консул смерти",
+          "englishName": "Death Consul",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "corpse-collector-1",
+          "number": 1,
+          "name": "Бледный император",
+          "englishName": "Pale Emperor",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "corpse-collector-0",
+          "number": 0,
+          "name": "Смерть",
+          "englishName": "Death",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "revealChapter": 1433
+    },
+    {
+      "id": "warrior",
+      "name": "Путь Воина",
+      "englishName": "Warrior Pathway",
+      "symbol": "⚔",
+      "color": "#bd8b78",
+      "description": "Сила, сумерки, защита. Известен Городу Серебра; Деррик знакомит с ним Клуб Таро.",
+      "sequences": [
+        {
+          "id": "warrior-9",
+          "number": 9,
+          "name": "Воин",
+          "englishName": "Warrior",
+          "revealChapter": 138,
+          "summaryRevealChapter": 138,
+          "abilitiesRevealChapter": 160,
+          "summary": "Физическая мощь, боевые навыки, устойчивость.",
+          "abilities": [
+            "Значительно усиленное тело",
+            "Боевая интуиция",
+            "Высокая выносливость"
+          ],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "???",
+          "notes": "Город Серебра активно использует этот путь. Формула на срезе может быть ещё неизвестна Клубу."
+        },
+        {
+          "id": "warrior-8",
+          "number": 8,
+          "name": "Кулачный боец",
+          "englishName": "Pugilist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "warrior-7",
+          "number": 7,
+          "name": "Мастер оружия",
+          "englishName": "Weapon Master",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "warrior-6",
+          "number": 6,
+          "name": "Паладин рассвета",
+          "englishName": "Dawn Paladin",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "warrior-5",
+          "number": 5,
+          "name": "Страж",
+          "englishName": "Guardian",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "warrior-4",
+          "number": 4,
+          "name": "Охотник на демонов",
+          "englishName": "Demon Hunter",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "warrior-3",
+          "number": 3,
+          "name": "Серебряный рыцарь",
+          "englishName": "Silver Knight",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "warrior-2",
+          "number": 2,
+          "name": "Слава",
+          "englishName": "Glory",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "warrior-1",
+          "number": 1,
+          "name": "Рука Бога",
+          "englishName": "Hand of God",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "warrior-0",
+          "number": 0,
+          "name": "Сумеречный великан",
+          "englishName": "Twilight Giant",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "revealChapter": 1433
+    },
+    {
+      "id": "red-priest",
+      "name": "Путь Охотника",
+      "englishName": "Hunter Pathway",
+      "symbol": "♨",
+      "color": "#c8786c",
+      "sequences": [
+        {
+          "id": "red-priest-9",
+          "number": 9,
+          "name": "Охотник",
+          "englishName": "Hunter",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "red-priest-8",
+          "number": 8,
+          "name": "Провокатор",
+          "englishName": "Provoker",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "red-priest-7",
+          "number": 7,
+          "name": "Пироманьяк",
+          "englishName": "Pyromaniac",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "red-priest-6",
+          "number": 6,
+          "name": "Заговорщик",
+          "englishName": "Conspirer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "red-priest-5",
+          "number": 5,
+          "name": "Жнец",
+          "englishName": "Reaper",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "red-priest-4",
+          "number": 4,
+          "name": "Рыцарь железной крови",
+          "englishName": "Iron-blooded Knight",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "red-priest-3",
+          "number": 3,
+          "name": "Боевой епископ",
+          "englishName": "War Bishop",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "red-priest-2",
+          "number": 2,
+          "name": "Маг погоды",
+          "englishName": "Weather Warlock",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "red-priest-1",
+          "number": 1,
+          "name": "Завоеватель",
+          "englishName": "Conqueror",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "red-priest-0",
+          "number": 0,
+          "name": "Красный жрец",
+          "englishName": "Red Priest",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "demoness",
+      "name": "Путь Убийцы",
+      "englishName": "Assassin Pathway",
+      "symbol": "✧",
+      "color": "#c184a7",
+      "sequences": [
+        {
+          "id": "demoness-9",
+          "number": 9,
+          "name": "Убийца",
+          "englishName": "Assassin",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "demoness-8",
+          "number": 8,
+          "name": "Подстрекатель",
+          "englishName": "Instigator",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "demoness-7",
+          "number": 7,
+          "name": "Ведьма",
+          "englishName": "Witch",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "demoness-6",
+          "number": 6,
+          "name": "Удовольствие",
+          "englishName": "Pleasure",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "demoness-5",
+          "number": 5,
+          "name": "Страдание",
+          "englishName": "Affliction",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "demoness-4",
+          "number": 4,
+          "name": "Отчаяние",
+          "englishName": "Despair",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "demoness-3",
+          "number": 3,
+          "name": "Неувядающая",
+          "englishName": "Unaging",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "demoness-2",
+          "number": 2,
+          "name": "Катастрофа",
+          "englishName": "Catastrophe",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "demoness-1",
+          "number": 1,
+          "name": "Апокалипсис",
+          "englishName": "Apocalypse",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "demoness-0",
+          "number": 0,
+          "name": "Демонесса",
+          "englishName": "Demoness",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "hermit",
+      "name": "Путь Тайноискателя",
+      "englishName": "Mystery Pryer Pathway",
+      "symbol": "⌬",
+      "color": "#9d9a75",
+      "sequences": [
+        {
+          "id": "hermit-9",
+          "number": 9,
+          "name": "Тайноискатель",
+          "englishName": "Mystery Pryer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hermit-8",
+          "number": 8,
+          "name": "Знаток рукопашного боя",
+          "englishName": "Melee Scholar",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hermit-7",
+          "number": 7,
+          "name": "Чернокнижник",
+          "englishName": "Warlock",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hermit-6",
+          "number": 6,
+          "name": "Профессор свитков",
+          "englishName": "Scrolls Professor",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hermit-5",
+          "number": 5,
+          "name": "Мастер созвездий",
+          "englishName": "Constellations Master",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hermit-4",
+          "number": 4,
+          "name": "Мистиколог",
+          "englishName": "Mysticologist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hermit-3",
+          "number": 3,
+          "name": "Ясновидец",
+          "englishName": "Clairvoyant",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hermit-2",
+          "number": 2,
+          "name": "Мудрец",
+          "englishName": "Sage",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hermit-1",
+          "number": 1,
+          "name": "Император знаний",
+          "englishName": "Knowledge Emperor",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "hermit-0",
+          "number": 0,
+          "name": "Отшельник",
+          "englishName": "Hermit",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "paragon",
+      "name": "Путь Саванта",
+      "englishName": "Savant Pathway",
+      "symbol": "⚙",
+      "color": "#b4a273",
+      "sequences": [
+        {
+          "id": "paragon-9",
+          "number": 9,
+          "name": "Савант",
+          "englishName": "Savant",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "paragon-8",
+          "number": 8,
+          "name": "Археолог",
+          "englishName": "Archaeologist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "paragon-7",
+          "number": 7,
+          "name": "Оценщик",
+          "englishName": "Appraiser",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "paragon-6",
+          "number": 6,
+          "name": "Ремесленник",
+          "englishName": "Artisan",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "paragon-5",
+          "number": 5,
+          "name": "Астроном",
+          "englishName": "Astronomer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "paragon-4",
+          "number": 4,
+          "name": "Алхимик",
+          "englishName": "Alchemist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "paragon-3",
+          "number": 3,
+          "name": "Магический учёный",
+          "englishName": "Arcane Scholar",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "paragon-2",
+          "number": 2,
+          "name": "Магистр знаний",
+          "englishName": "Knowledge Magister",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "paragon-1",
+          "number": 1,
+          "name": "Просветитель",
+          "englishName": "Illuminator",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "paragon-0",
+          "number": 0,
+          "name": "Парагон",
+          "englishName": "Paragon",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "wheel-of-fortune",
+      "name": "Путь Монстра",
+      "englishName": "Monster Pathway",
+      "symbol": "∞",
+      "color": "#8eb5a0",
+      "sequences": [
+        {
+          "id": "wheel-of-fortune-9",
+          "number": 9,
+          "name": "Монстр",
+          "englishName": "Monster",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "wheel-of-fortune-8",
+          "number": 8,
+          "name": "Робот",
+          "englishName": "Robot",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "wheel-of-fortune-7",
+          "number": 7,
+          "name": "Счастливчик",
+          "englishName": "Lucky One",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "wheel-of-fortune-6",
+          "number": 6,
+          "name": "Жрец бедствий",
+          "englishName": "Calamity Priest",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "wheel-of-fortune-5",
+          "number": 5,
+          "name": "Победитель",
+          "englishName": "Winner",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "wheel-of-fortune-4",
+          "number": 4,
+          "name": "Маг несчастий",
+          "englishName": "Misfortune Mage",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "wheel-of-fortune-3",
+          "number": 3,
+          "name": "Странник хаоса",
+          "englishName": "Chaoswalker",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "wheel-of-fortune-2",
+          "number": 2,
+          "name": "Предсказатель",
+          "englishName": "Soothsayer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "wheel-of-fortune-1",
+          "number": 1,
+          "name": "Змея Меркурия",
+          "englishName": "Snake of Mercury",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "wheel-of-fortune-0",
+          "number": 0,
+          "name": "Колесо Фортуны",
+          "englishName": "Wheel of Fortune",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "moon",
+      "name": "Путь Аптекаря",
+      "englishName": "Apothecary Pathway",
+      "symbol": "☽",
+      "color": "#aa91b8",
+      "sequences": [
+        {
+          "id": "moon-9",
+          "number": 9,
+          "name": "Аптекарь",
+          "englishName": "Apothecary",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "moon-8",
+          "number": 8,
+          "name": "Укротитель зверей",
+          "englishName": "Beast Tamer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "moon-7",
+          "number": 7,
+          "name": "Вампир",
+          "englishName": "Vampire",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "moon-6",
+          "number": 6,
+          "name": "Профессор зелий",
+          "englishName": "Potions Professor",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "moon-5",
+          "number": 5,
+          "name": "Алый учёный",
+          "englishName": "Scarlet Scholar",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "moon-4",
+          "number": 4,
+          "name": "Король шаманов",
+          "englishName": "Shaman King",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "moon-3",
+          "number": 3,
+          "name": "Верховный призыватель",
+          "englishName": "High Summoner",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "moon-2",
+          "number": 2,
+          "name": "Дарующий жизнь",
+          "englishName": "Life-Giver",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "moon-1",
+          "number": 1,
+          "name": "Богиня красоты",
+          "englishName": "Beauty Goddess",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "moon-0",
+          "number": 0,
+          "name": "Луна",
+          "englishName": "Moon",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "mother",
+      "name": "Путь Садовника",
+      "englishName": "Planter Pathway",
+      "symbol": "❀",
+      "color": "#8eb58b",
+      "sequences": [
+        {
+          "id": "mother-9",
+          "number": 9,
+          "name": "Садовник",
+          "englishName": "Planter",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "mother-8",
+          "number": 8,
+          "name": "Доктор",
+          "englishName": "Doctor",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "mother-7",
+          "number": 7,
+          "name": "Жрец урожая",
+          "englishName": "Harvest Priest",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "mother-6",
+          "number": 6,
+          "name": "Биолог",
+          "englishName": "Biologist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "mother-5",
+          "number": 5,
+          "name": "Друид",
+          "englishName": "Druid",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "mother-4",
+          "number": 4,
+          "name": "Древний алхимик",
+          "englishName": "Ancient Alchemist",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "mother-3",
+          "number": 3,
+          "name": "Погребальщик",
+          "englishName": "Pallbearer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "mother-2",
+          "number": 2,
+          "name": "Опустошённая матриарх",
+          "englishName": "Desolate Matriarch",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "mother-1",
+          "number": 1,
+          "name": "Странник природы",
+          "englishName": "Naturewalker",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "mother-0",
+          "number": 0,
+          "name": "Мать",
+          "englishName": "Mother",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "abyss",
+      "name": "Путь Преступника",
+      "englishName": "Criminal Pathway",
+      "symbol": "♠",
+      "color": "#b77878",
+      "sequences": [
+        {
+          "id": "abyss-9",
+          "number": 9,
+          "name": "Преступник",
+          "englishName": "Criminal",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "abyss-8",
+          "number": 8,
+          "name": "Бескрылый ангел",
+          "englishName": "Unwinged Angel",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "abyss-7",
+          "number": 7,
+          "name": "Серийный убийца",
+          "englishName": "Serial Killer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "abyss-6",
+          "number": 6,
+          "name": "Дьявол",
+          "englishName": "Devil",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "abyss-5",
+          "number": 5,
+          "name": "Апостол желания",
+          "englishName": "Desire Apostle",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "abyss-4",
+          "number": 4,
+          "name": "Демон",
+          "englishName": "Demon",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "abyss-3",
+          "number": 3,
+          "name": "Болтун",
+          "englishName": "Blatherer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "abyss-2",
+          "number": 2,
+          "name": "Кровавый архонт",
+          "englishName": "Bloody Archduke",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "abyss-1",
+          "number": 1,
+          "name": "Грязный монарх",
+          "englishName": "Filthy Monarch",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "abyss-0",
+          "number": 0,
+          "name": "Бездна",
+          "englishName": "Abyss",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "chained",
+      "name": "Путь Заключённого",
+      "englishName": "Prisoner Pathway",
+      "symbol": "⛓",
+      "color": "#a38eab",
+      "sequences": [
+        {
+          "id": "chained-9",
+          "number": 9,
+          "name": "Заключённый",
+          "englishName": "Prisoner",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "chained-8",
+          "number": 8,
+          "name": "Лунатик",
+          "englishName": "Lunatic",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "chained-7",
+          "number": 7,
+          "name": "Оборотень",
+          "englishName": "Werewolf",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "chained-6",
+          "number": 6,
+          "name": "Зомби",
+          "englishName": "Zombie",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "chained-5",
+          "number": 5,
+          "name": "Призрак",
+          "englishName": "Wraith",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "chained-4",
+          "number": 4,
+          "name": "Кукла",
+          "englishName": "Puppet",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "chained-3",
+          "number": 3,
+          "name": "Ученик тишины",
+          "englishName": "Disciple of Silence",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "chained-2",
+          "number": 2,
+          "name": "Древнее бедствие",
+          "englishName": "Ancient Bane",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "chained-1",
+          "number": 1,
+          "name": "Мерзость",
+          "englishName": "Abomination",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "chained-0",
+          "number": 0,
+          "name": "Цепь",
+          "englishName": "Chained",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "black-emperor",
+      "name": "Путь Адвоката",
+      "englishName": "Lawyer Pathway",
+      "symbol": "§",
+      "color": "#b8a18a",
+      "sequences": [
+        {
+          "id": "black-emperor-9",
+          "number": 9,
+          "name": "Адвокат",
+          "englishName": "Lawyer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "black-emperor-8",
+          "number": 8,
+          "name": "Варвар",
+          "englishName": "Barbarian",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "black-emperor-7",
+          "number": 7,
+          "name": "Подкупщик",
+          "englishName": "Briber",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "black-emperor-6",
+          "number": 6,
+          "name": "Барон коррупции",
+          "englishName": "Baron of Corruption",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "black-emperor-5",
+          "number": 5,
+          "name": "Наставник беспорядка",
+          "englishName": "Mentor of Disorder",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "black-emperor-4",
+          "number": 4,
+          "name": "Павший граф",
+          "englishName": "Earl of the Fallen",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "black-emperor-3",
+          "number": 3,
+          "name": "Безумный маг",
+          "englishName": "Frenzied Mage",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "black-emperor-2",
+          "number": 2,
+          "name": "Герцог энтропии",
+          "englishName": "Duke of Entropy",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "black-emperor-1",
+          "number": 1,
+          "name": "Принц упразднения",
+          "englishName": "Prince of Abolition",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "black-emperor-0",
+          "number": 0,
+          "name": "Чёрный император",
+          "englishName": "Black Emperor",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    },
+    {
+      "id": "justiciar",
+      "name": "Путь Арбитра",
+      "englishName": "Arbiter Pathway",
+      "symbol": "⚖",
+      "color": "#8dabc3",
+      "sequences": [
+        {
+          "id": "justiciar-9",
+          "number": 9,
+          "name": "Арбитр",
+          "englishName": "Arbiter",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "justiciar-8",
+          "number": 8,
+          "name": "Шериф",
+          "englishName": "Sheriff",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "justiciar-7",
+          "number": 7,
+          "name": "Дознаватель",
+          "englishName": "Interrogator",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "justiciar-6",
+          "number": 6,
+          "name": "Судья",
+          "englishName": "Judge",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "justiciar-5",
+          "number": 5,
+          "name": "Дисциплинарный паладин",
+          "englishName": "Disciplinary Paladin",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "justiciar-4",
+          "number": 4,
+          "name": "Маг предписаний",
+          "englishName": "Imperative Mage",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "justiciar-3",
+          "number": 3,
+          "name": "Охотник хаоса",
+          "englishName": "Chaos Hunter",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "justiciar-2",
+          "number": 2,
+          "name": "Уравновешивающий",
+          "englishName": "Balancer",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "justiciar-1",
+          "number": 1,
+          "name": "Рука порядка",
+          "englishName": "Hand of Order",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        },
+        {
+          "id": "justiciar-0",
+          "number": 0,
+          "name": "Справедливость",
+          "englishName": "Justiciar",
+          "revealChapter": 1433,
+          "summaryRevealChapter": 1433,
+          "abilitiesRevealChapter": 1433,
+          "summary": "",
+          "abilities": [],
+          "potion": {
+            "known": false,
+            "mainIngredients": [],
+            "supplementaryIngredients": [],
+            "sourceChapter": null
+          },
+          "actingPrinciple": "",
+          "notes": "Подробные сведения об этой последовательности ещё не внесены в архив."
+        }
+      ],
+      "description": "",
+      "revealChapter": 1433
+    }
+  ],
+  "characters": [
+    {
+      "id": "klein",
+      "name": "Клейн Моретти",
+      "aliases": [
+        "Klein Moretti",
+        "The Fool"
+      ],
+      "revealChapter": 1,
+      "description": "Главный герой, основатель Клуба Таро (Шут).",
+      "advancements": [
+        {
+          "chapter": 1,
+          "sequenceId": "fool-9"
+        },
+        {
+          "chapter": 169,
+          "sequenceId": "fool-8"
+        }
+      ]
+    },
+    {
+      "id": "audrey",
+      "name": "Одри Холл",
+      "aliases": [
+        "Audrey Hall",
+        "Justice"
+      ],
+      "revealChapter": 7,
+      "description": "Справедливость в Клубе Таро. Путь Зрителя.",
+      "advancements": [
+        {
+          "chapter": 7,
+          "sequenceId": "spectator-9"
+        },
+        {
+          "chapter": 150,
+          "sequenceId": "spectator-8"
+        }
+      ]
+    },
+    {
+      "id": "alger",
+      "name": "Алджер Уилсон",
+      "aliases": [
+        "Alger Wilson",
+        "The Hanged Man"
+      ],
+      "revealChapter": 7,
+      "description": "Повешенный в Клубе Таро. Путь Моряка.",
+      "advancements": [
+        {
+          "chapter": 7,
+          "sequenceId": "sailor-9"
+        }
+      ]
+    },
+    {
+      "id": "derrick",
+      "name": "Деррик Берг",
+      "aliases": [
+        "Derrick Berg",
+        "The Sun"
+      ],
+      "revealChapter": 138,
+      "description": "Солнце в Клубе Таро. Юноша из Города Серебра, Путь Солнца.",
+      "advancements": [
+        {
+          "chapter": 158,
+          "sequenceId": "sun-9"
+        }
+      ]
+    },
+    {
+      "id": "dunn",
+      "name": "Данн Смит",
+      "aliases": [
+        "Dunn Smith"
+      ],
+      "revealChapter": 1,
+      "description": "Капитан Nighthawks в Тингене. Кошмар (Seq. 7).",
+      "advancements": [
+        {
+          "chapter": 1,
+          "sequenceId": "sleepless-7"
+        }
+      ]
+    },
+    {
+      "id": "leonard",
+      "name": "Леонард Митчелл",
+      "aliases": [
+        "Leonard Mitchell"
+      ],
+      "revealChapter": 1,
+      "description": "Nighthawk, поэт. Поэт Полночи (Seq. 8).",
+      "advancements": [
+        {
+          "chapter": 1,
+          "sequenceId": "sleepless-8"
+        }
+      ]
+    },
+    {
+      "id": "frye",
+      "name": "Фрай",
+      "aliases": [
+        "Frye"
+      ],
+      "revealChapter": 30,
+      "description": "Nighthawk, работа с трупами.",
+      "advancements": [
+        {
+          "chapter": 30,
+          "sequenceId": "corpse-9"
+        }
+      ]
+    },
+    {
+      "id": "old-neil",
+      "name": "Старый Нил",
+      "aliases": [
+        "Old Neil"
+      ],
+      "revealChapter": 24,
+      "description": "Nighthawk, учит Клейна мистике.",
+      "advancements": []
+    }
+  ],
+  "events": [
+    {
+      "id": "seer-formula",
+      "chapter": 31,
+      "title": "Формула Провидца",
+      "description": "Раскрыт состав зелья Sequence 9 Пути Шута.",
+      "relatedSequenceId": "fool-9",
+      "type": "potion",
+      "typeLabel": "ФОРМУЛА"
+    },
+    {
+      "id": "tarot-start",
+      "chapter": 7,
+      "title": "Клуб Таро",
+      "description": "Шут, Справедливость и Повешенный проводят первые собрания.",
+      "type": "event",
+      "typeLabel": "СОБЫТИЕ"
+    },
+    {
+      "id": "derrick-joins",
+      "chapter": 138,
+      "title": "Солнце вступает в Клуб",
+      "description": "Деррик Берг из Города Серебра становится «Солнцем». Запрашивает формулу Барда. Знакомит Клуб с историей и Путём Воина.",
+      "relatedSequenceId": "sun-9",
+      "characterId": "derrick",
+      "type": "event",
+      "typeLabel": "КЛУБ ТАРО"
+    },
+    {
+      "id": "bard-formula",
+      "chapter": 138,
+      "title": "Формула Барда",
+      "description": "Деррик получает формулу Sequence 9 Пути Солнца.",
+      "relatedSequenceId": "sun-9",
+      "type": "potion",
+      "typeLabel": "ФОРМУЛА"
+    },
+    {
+      "id": "telepathist-formula",
+      "chapter": 144,
+      "title": "Формула Телепата",
+      "description": "Обмен формулами в Клубе Таро: Телепат (Зритель Seq. 8).",
+      "relatedSequenceId": "spectator-8",
+      "type": "potion",
+      "typeLabel": "ФОРМУЛА"
+    },
+    {
+      "id": "derrick-bard",
+      "chapter": 158,
+      "title": "Деррик становится Бардом",
+      "description": "Деррик выпивает зелье Барда.",
+      "relatedSequenceId": "sun-9",
+      "characterId": "derrick",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "klein-clown",
+      "chapter": 169,
+      "title": "Клейн становится Клоуном",
+      "description": "Клейн продвигается с Провидца на Клоуна.",
+      "relatedSequenceId": "fool-8",
+      "characterId": "klein",
+      "fromSequence": "Провидец",
+      "toSequence": "Клоун",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    }
+  ]
+}

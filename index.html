@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#10121a">
+  <title>Lord of Mysteries — Древо последовательностей</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="#top"><span class="brand-mark">✦</span><span><strong>LOTM</strong><small>INTERACTIVE ARCHIVE</small></span></a>
+    <div class="sidebar-label">АРХИВ</div>
+    <button class="nav-item active" data-view="pathways"><span>⌘</span> Древо последовательностей</button>
+    <button class="nav-item" data-view="timeline"><span>⌁</span> События</button>
+    
+    <div class="sidebar-bottom"><div class="sidebar-note"><span class="status-dot"></span><div><b>Локальная база</b><small>Контент загружается из JSON</small></div></div><button id="aboutBtn" class="text-button">О проекте ↗</button></div>
+  </aside>
+  <main id="top" class="main-content">
+    <header class="topbar">
+      <div class="breadcrumb">LORD OF MYSTERIES <span>/</span> <b id="breadcrumbCurrent">22 ПУТИ</b></div>
+      <div class="top-actions">
+        <label class="spoiler-switch" title="Скрывать сведения, ещё не раскрытые на выбранной главе">
+          <input id="spoilerToggle" type="checkbox" checked><span class="switch-track"></span><span>Без спойлеров</span>
+        </label>
+        <div class="chapter-control" aria-label="Выбор главы">
+          <label for="chapterSlider" class="chapter-label">ГЛАВА <b id="chapterValue">134</b></label>
+          <input id="chapterSlider" class="chapter-slider" type="range" min="1" max="1432" value="134" aria-label="Прокрутка по главам">
+          <input id="chapterInput" class="chapter-number" type="number" min="1" max="1432" value="134" aria-label="Номер главы вручную" title="Введите номер главы">
+          <button id="applyChapter" class="chapter-apply" type="button" aria-label="Применить номер главы" title="Применить номер главы">↵</button>
+        </div>
+      </div>
+    </header>
+    <section class="content-section radial-section" id="pathwaysView">
+      <div class="radial-scroll">
+        <div id="pathwayTree" class="radial-stage" aria-label="Радиальная схема 22 путей последовательностей"></div>
+      </div>
+      <div id="emptyState" class="empty-state" hidden><h3>Архив не содержит путей</h3><p>Проверь файл data/archive.json.</p></div>
+    </section>
+    <section class="content-section timeline-section" id="timelineView" hidden><div class="section-heading"><div><div class="eyebrow">ПРОГРЕСС ИСТОРИИ</div><h2>События</h2><p>Открытия формул, новые способности и продвижение персонажей по последовательностям.</p></div></div><div class="timeline-panel"><div class="timeline-top"><span>НАЧАЛО ИСТОРИИ</span><strong id="timelineChapterLabel">Глава 134</strong><span>ТВОЙ ПРОГРЕСС</span></div><input id="timelineSlider" type="range" min="1" max="1432" value="134"><div class="timeline-ticks"><span>1</span><span>50</span><span>100</span><span>150</span><span id="timelineTicksLast">200</span></div><div id="timelineEvents" class="timeline-events"></div></div></section>
+  </main>
+</div>
+<div id="detailModal" class="modal-backdrop" hidden>
+  <section class="modal detail-modal" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+    <button class="modal-close" id="closeDetail" aria-label="Закрыть">×</button>
+    <div id="detailContent"></div>
+  </section>
+</div>
+<div id="toast" class="toast" role="status"></div>
+<script src="app.js"></script>
+</body></html>
