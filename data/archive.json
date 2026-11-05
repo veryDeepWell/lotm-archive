@@ -4,7 +4,7 @@
     "language": "ru",
     "demo": false,
     "chapterLimit": 1432,
-    "scopeNote": "Исследовательский срез романа Lord of Mysteries охватывает главы 1–600. В каталоге сохранены все 22 пути и 220 слотов последовательностей, но заполнены только детали, для которых удалось подтвердить название, способности или формулу. В spoiler-safe режиме отдельно фильтруются название последовательности, способности, рецепт, принцип исполнения роли, описание персонажа и последняя известная ступень. Отсутствие проверенной даты означает ???, а не автоматическое раскрытие.",
+    "scopeNote": "Исследовательский срез романа Lord of Mysteries охватывает главы 1–1432, включая основную историю и заключительную часть. В каталоге сохранены все 22 пути и 220 слотов последовательностей; заполнены детали, для которых удалось подтвердить сведения и момент раскрытия в тексте. В spoiler-safe режиме отдельно фильтруются названия, способности, рецепты, принципы исполнения роли, описания персонажей и их последние известные ступени. Отсутствие проверенной даты означает ???, а не автоматическое раскрытие.",
     "sourceNotes": [
       "Для Клейна зафиксированы продвижения: Провидец — глава 32, Клоун — 168, Маг — 295, Безликий — 451.",
       "Для Одри: Зритель — глава 41, Телепат — 221, Психиатр — 519.",
@@ -16,9 +16,12 @@
       "Для Айзегарда Стэнтона момент раскрытия пути Белой Башни и Sequence 7 Detective выставлен на главу 271; первое появление персонажа не приравнивается к раскрытию его последовательности.",
       "Для Даница Sequence 7 Pyromaniac открывается в пределах сюжетного участка около глав 499–551; формула оставлена пустой, поскольку надёжный момент полного раскрытия рецепта до главы 600 не подтверждён.",
       "Сириус Арапес исправлен с Sequence 9 на Sequence 8 Listener; Алджер показывается в подтверждённом состоянии Sequence 7 Seafarer, а не Sequence 8 Folk of Rage.",
-      "Список персонажей на конкретной последовательности формируется по последней известной на выбранной главе ступени: до даты её раскрытия персонаж не появляется в карточке этой ступени."
+      "Список персонажей на конкретной последовательности формируется по последней известной на выбранной главе ступени: до даты её раскрытия персонаж не появляется в карточке этой ступени.",
+      "Сверка поздних продвижений персонажей доведена до главы 1432; дата в карточке персонажа означает первое подтверждённое читателю состояние на этой ступени, если продвижение произошло за кадром.",
+      "Формула, получение характеристики и фактическое употребление зелья считаются разными событиями; даты продвижений не подменяют даты раскрытия рецепта.",
+      "Для поздних глав использованы покадровые summaries 601–1432 и таблицы прогресса персонажей LOTM Wiki. Если точная дата раскрытия отдельной способности или формулы не подтверждена, поле остаётся закрытым."
     ],
-    "researchCutoffChapter": 600,
+    "researchCutoffChapter": 1432,
     "sources": [
       {
         "title": "LOTM Wiki — Potion System / List of Potion Formulas",
@@ -114,6 +117,96 @@
         "title": "Sequence Names — Lord of the Mysteries Wiki",
         "url": "https://lordofthemysteries.fandom.com/wiki/Sequence/List_of_Sequence_Names",
         "usedFor": "Сверка официальных английских названий последовательностей и соответствия путям."
+      },
+      {
+        "title": "Главы 601–700: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-601-700/",
+        "usedFor": "Сверка поздних сюжетных раскрытий и продвижений; точные выводы внесены только при подтверждении главой или отдельным источником."
+      },
+      {
+        "title": "Главы 701–800: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-701-800/",
+        "usedFor": "Сверка поздних сюжетных раскрытий и продвижений; точные выводы внесены только при подтверждении главой или отдельным источником."
+      },
+      {
+        "title": "Главы 801–900: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-801-900/",
+        "usedFor": "Сверка поздних сюжетных раскрытий и продвижений; точные выводы внесены только при подтверждении главой или отдельным источником."
+      },
+      {
+        "title": "Главы 901–1000: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-901-1000/",
+        "usedFor": "Сверка поздних сюжетных раскрытий и продвижений; точные выводы внесены только при подтверждении главой или отдельным источником."
+      },
+      {
+        "title": "Главы 1001–1100: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-1001-1100/",
+        "usedFor": "Сверка поздних сюжетных раскрытий и продвижений; точные выводы внесены только при подтверждении главой или отдельным источником."
+      },
+      {
+        "title": "Главы 1101–1200: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-1101-1200/",
+        "usedFor": "Сверка поздних сюжетных раскрытий и продвижений; точные выводы внесены только при подтверждении главой или отдельным источником."
+      },
+      {
+        "title": "Главы 1201–1300: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-1201-1300/",
+        "usedFor": "Сверка поздних сюжетных раскрытий и продвижений; точные выводы внесены только при подтверждении главой или отдельным источником."
+      },
+      {
+        "title": "Главы 1301–1400: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-1301-1400/",
+        "usedFor": "Сверка поздних сюжетных раскрытий и продвижений; точные выводы внесены только при подтверждении главой или отдельным источником."
+      },
+      {
+        "title": "Главы 1401–1432: краткие содержания",
+        "url": "https://www.novelwiki.net/lord-of-the-mysteries/summaries/chapters-1401-1432/",
+        "usedFor": "Сверка поздних сюжетных раскрытий и продвижений; точные выводы внесены только при подтверждении главой или отдельным источником."
+      },
+      {
+        "title": "Klein Moretti/Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Klein_Moretti/Progress",
+        "usedFor": "Главы продвижений Клейна от Марионеточника до Шута."
+      },
+      {
+        "title": "Audrey Hall/Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Audrey_Hall/Progress",
+        "usedFor": "Главы продвижений Одри до Ткача снов."
+      },
+      {
+        "title": "Alger Wilson/Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Alger_Wilson/Progress",
+        "usedFor": "Главы продвижений Алджера до Погребателя катастроф."
+      },
+      {
+        "title": "Derrick Berg/Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Derrick_Berg/Progress",
+        "usedFor": "Главы продвижений Деррика до Незапятнанного."
+      },
+      {
+        "title": "Leonard Mitchell/Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Leonard_Mitchell/Progress",
+        "usedFor": "Главы продвижений Леонарда до Ночного дозорного."
+      },
+      {
+        "title": "Fors Wall/Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Fors_Wall/Progress",
+        "usedFor": "Главы продвижений Форс до Чародея тайн."
+      },
+      {
+        "title": "Emlyn White/Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Emlyn_White/Progress",
+        "usedFor": "Главы продвижений Эмлина до Короля шаманов."
+      },
+      {
+        "title": "Xio Derecha/Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Xio_Derecha/Progress",
+        "usedFor": "Главы продвижений Хио до Мага предписаний."
+      },
+      {
+        "title": "Cattleya/Progress — Lord of the Mysteries Wiki",
+        "url": "https://lordofthemysteries.fandom.com/wiki/Cattleya/Progress",
+        "usedFor": "Главы продвижений Кэттлии до Ясновидца."
       }
     ]
   },
@@ -284,7 +377,7 @@
           "number": 5,
           "name": "Марионеточник",
           "englishName": "Marionettist",
-          "revealChapter": 665,
+          "revealChapter": 664,
           "summaryRevealChapter": 665,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -304,7 +397,7 @@
           "number": 4,
           "name": "Чародей-бизарр",
           "englishName": "Bizarro Sorcerer",
-          "revealChapter": 1433,
+          "revealChapter": 675,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -324,7 +417,7 @@
           "number": 3,
           "name": "Ученый древности",
           "englishName": "Scholar of Yore",
-          "revealChapter": 1433,
+          "revealChapter": 838,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -344,7 +437,7 @@
           "number": 2,
           "name": "Чудотворец",
           "englishName": "Miracle Invoker",
-          "revealChapter": 1433,
+          "revealChapter": 1268,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -364,7 +457,7 @@
           "number": 1,
           "name": "Служитель тайн",
           "englishName": "Attendant of Mysteries",
-          "revealChapter": 1433,
+          "revealChapter": 1352,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -384,7 +477,7 @@
           "number": 0,
           "name": "Шут",
           "englishName": "Fool",
-          "revealChapter": 1433,
+          "revealChapter": 1380,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -490,7 +583,7 @@
           "number": 7,
           "name": "Астролог",
           "englishName": "Astrologer",
-          "revealChapter": 1433,
+          "revealChapter": 646,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -510,7 +603,7 @@
           "number": 6,
           "name": "Переписчик",
           "englishName": "Scribe",
-          "revealChapter": 1433,
+          "revealChapter": 787,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -530,7 +623,7 @@
           "number": 5,
           "name": "Путешественник",
           "englishName": "Traveler",
-          "revealChapter": 1433,
+          "revealChapter": 1076,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -550,7 +643,7 @@
           "number": 4,
           "name": "Маг тайн",
           "englishName": "Secrets Sorcerer",
-          "revealChapter": 1433,
+          "revealChapter": 1278,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -990,7 +1083,7 @@
           "number": 6,
           "name": "Гипнотизёр",
           "englishName": "Hypnotist",
-          "revealChapter": 1433,
+          "revealChapter": 859,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -1010,7 +1103,7 @@
           "number": 5,
           "name": "Сновидец",
           "englishName": "Dreamwalker",
-          "revealChapter": 1433,
+          "revealChapter": 1061,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -1030,7 +1123,7 @@
           "number": 4,
           "name": "Манипулятор",
           "englishName": "Manipulator",
-          "revealChapter": 1433,
+          "revealChapter": 1189,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -1050,7 +1143,7 @@
           "number": 3,
           "name": "Ткач снов",
           "englishName": "Dream Weaver",
-          "revealChapter": 1433,
+          "revealChapter": 1393,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -1253,7 +1346,7 @@
           "number": 6,
           "name": "Нотариус",
           "englishName": "Notary",
-          "revealChapter": 1433,
+          "revealChapter": 767,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -1273,7 +1366,7 @@
           "number": 5,
           "name": "Священник Света",
           "englishName": "Priest of Light",
-          "revealChapter": 1433,
+          "revealChapter": 934,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -1293,7 +1386,7 @@
           "number": 4,
           "name": "Незапятнанный",
           "englishName": "Unshadowed",
-          "revealChapter": 1433,
+          "revealChapter": 1227,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -1478,7 +1571,7 @@
           "number": 6,
           "name": "Благословлённый ветром",
           "englishName": "Wind-blessed",
-          "revealChapter": 1433,
+          "revealChapter": 592,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -1498,7 +1591,7 @@
           "number": 5,
           "name": "Певец океана",
           "englishName": "Ocean Songster",
-          "revealChapter": 1433,
+          "revealChapter": 783,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -1518,7 +1611,7 @@
           "number": 4,
           "name": "Погребатель катастроф",
           "englishName": "Cataclysmic Interrer",
-          "revealChapter": 1433,
+          "revealChapter": 1228,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -2157,7 +2250,7 @@
           "number": 6,
           "name": "Хранитель души",
           "englishName": "Soul Assurer",
-          "revealChapter": 1433,
+          "revealChapter": 764,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -2177,7 +2270,7 @@
           "number": 5,
           "name": "Духовный чернокнижник",
           "englishName": "Spirit Warlock",
-          "revealChapter": 1433,
+          "revealChapter": 1060,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -2197,7 +2290,7 @@
           "number": 4,
           "name": "Ночной дозорный",
           "englishName": "Nightwatcher",
-          "revealChapter": 1433,
+          "revealChapter": 1272,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -3293,7 +3386,7 @@
           "number": 5,
           "name": "Мастер созвездий",
           "englishName": "Constellations Master",
-          "revealChapter": 1433,
+          "revealChapter": 616,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -3313,7 +3406,7 @@
           "number": 4,
           "name": "Мистиколог",
           "englishName": "Mysticologist",
-          "revealChapter": 1433,
+          "revealChapter": 828,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -3333,7 +3426,7 @@
           "number": 3,
           "name": "Ясновидец",
           "englishName": "Clairvoyant",
-          "revealChapter": 1433,
+          "revealChapter": 1325,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -3975,7 +4068,7 @@
           "number": 5,
           "name": "Алый учёный",
           "englishName": "Scarlet Scholar",
-          "revealChapter": 1433,
+          "revealChapter": 1009,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -3995,7 +4088,7 @@
           "number": 4,
           "name": "Король шаманов",
           "englishName": "Shaman King",
-          "revealChapter": 1433,
+          "revealChapter": 1259,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -5048,7 +5141,7 @@
           "number": 7,
           "name": "Дознаватель",
           "englishName": "Interrogator",
-          "revealChapter": 1433,
+          "revealChapter": 819,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -5068,7 +5161,7 @@
           "number": 6,
           "name": "Судья",
           "englishName": "Judge",
-          "revealChapter": 1433,
+          "revealChapter": 1067,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -5088,7 +5181,7 @@
           "number": 5,
           "name": "Дисциплинарный паладин",
           "englishName": "Disciplinary Paladin",
-          "revealChapter": 1433,
+          "revealChapter": 1216,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -5108,7 +5201,7 @@
           "number": 4,
           "name": "Маг предписаний",
           "englishName": "Imperative Mage",
-          "revealChapter": 1433,
+          "revealChapter": 1366,
           "summaryRevealChapter": 1433,
           "abilitiesRevealChapter": 1433,
           "summary": "",
@@ -5238,6 +5331,30 @@
         {
           "chapter": 451,
           "sequenceId": "fool-6"
+        },
+        {
+          "chapter": 664,
+          "sequenceId": "fool-5"
+        },
+        {
+          "chapter": 946,
+          "sequenceId": "fool-4"
+        },
+        {
+          "chapter": 1138,
+          "sequenceId": "fool-3"
+        },
+        {
+          "chapter": 1268,
+          "sequenceId": "fool-2"
+        },
+        {
+          "chapter": 1352,
+          "sequenceId": "fool-1"
+        },
+        {
+          "chapter": 1380,
+          "sequenceId": "fool-0"
         }
       ]
     },
@@ -5263,6 +5380,22 @@
         {
           "chapter": 519,
           "sequenceId": "spectator-7"
+        },
+        {
+          "chapter": 859,
+          "sequenceId": "spectator-6"
+        },
+        {
+          "chapter": 1061,
+          "sequenceId": "spectator-5"
+        },
+        {
+          "chapter": 1189,
+          "sequenceId": "spectator-4"
+        },
+        {
+          "chapter": 1393,
+          "sequenceId": "spectator-3"
         }
       ]
     },
@@ -5280,6 +5413,18 @@
         {
           "chapter": 311,
           "sequenceId": "sailor-7"
+        },
+        {
+          "chapter": 1014,
+          "sequenceId": "sailor-6"
+        },
+        {
+          "chapter": 1141,
+          "sequenceId": "sailor-5"
+        },
+        {
+          "chapter": 1228,
+          "sequenceId": "sailor-4"
         }
       ]
     },
@@ -5305,6 +5450,18 @@
         {
           "chapter": 584,
           "sequenceId": "sun-7"
+        },
+        {
+          "chapter": 767,
+          "sequenceId": "sun-6"
+        },
+        {
+          "chapter": 1014,
+          "sequenceId": "sun-5"
+        },
+        {
+          "chapter": 1227,
+          "sequenceId": "sun-4"
         }
       ]
     },
@@ -5341,6 +5498,18 @@
         {
           "chapter": 364,
           "sequenceId": "sleepless-7"
+        },
+        {
+          "chapter": 764,
+          "sequenceId": "sleepless-6"
+        },
+        {
+          "chapter": 1060,
+          "sequenceId": "sleepless-5"
+        },
+        {
+          "chapter": 1272,
+          "sequenceId": "sleepless-4"
         }
       ]
     },
@@ -5441,6 +5610,22 @@
         {
           "chapter": 542,
           "sequenceId": "door-8"
+        },
+        {
+          "chapter": 739,
+          "sequenceId": "door-7"
+        },
+        {
+          "chapter": 1014,
+          "sequenceId": "door-6"
+        },
+        {
+          "chapter": 1189,
+          "sequenceId": "door-5"
+        },
+        {
+          "chapter": 1294,
+          "sequenceId": "door-4"
         }
       ]
     },
@@ -5461,6 +5646,14 @@
         {
           "chapter": 592,
           "sequenceId": "moon-6"
+        },
+        {
+          "chapter": 1009,
+          "sequenceId": "moon-5"
+        },
+        {
+          "chapter": 1259,
+          "sequenceId": "moon-4"
         }
       ]
     },
@@ -5477,6 +5670,22 @@
         {
           "chapter": 406,
           "sequenceId": "justiciar-9"
+        },
+        {
+          "chapter": 950,
+          "sequenceId": "justiciar-7"
+        },
+        {
+          "chapter": 1112,
+          "sequenceId": "justiciar-6"
+        },
+        {
+          "chapter": 1216,
+          "sequenceId": "justiciar-5"
+        },
+        {
+          "chapter": 1389,
+          "sequenceId": "justiciar-4"
         }
       ]
     },
@@ -5627,6 +5836,31 @@
         {
           "chapter": 499,
           "sequenceId": "red-priest-7"
+        }
+      ]
+    },
+    {
+      "id": "cattleya",
+      "name": "Кэттлия",
+      "aliases": [
+        "Cattleya",
+        "The Hermit"
+      ],
+      "revealChapter": 294,
+      "description": "Пиратский адмирал, капитан «Будущего» и участница Клуба Таро под именем Отшельник.",
+      "descriptionRevealChapter": 564,
+      "advancements": [
+        {
+          "chapter": 616,
+          "sequenceId": "hermit-5"
+        },
+        {
+          "chapter": 937,
+          "sequenceId": "hermit-4"
+        },
+        {
+          "chapter": 1388,
+          "sequenceId": "hermit-3"
         }
       ]
     }
@@ -5876,6 +6110,266 @@
       "description": "В этой части повествования раскрываются формула и продвижение Эмлина к Sequence 6 Пути Луны.",
       "relatedSequenceId": "moon-6",
       "characterId": "emlyn",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "klein-marionettist",
+      "chapter": 664,
+      "title": "Клейн становится Марионеточником",
+      "description": "Клейн продвигается до Sequence 5 Пути Шута.",
+      "relatedSequenceId": "fool-5",
+      "characterId": "klein",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "fors-astrologer",
+      "chapter": 739,
+      "title": "Форс становится Астрологом",
+      "description": "Форс продвигается до Sequence 7 Пути Ученика.",
+      "relatedSequenceId": "door-7",
+      "characterId": "fors",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "leonard-soul-assurer",
+      "chapter": 764,
+      "title": "Леонард становится Хранителем души",
+      "description": "Леонард продвигается до Sequence 6 Пути Тьмы.",
+      "relatedSequenceId": "sleepless-6",
+      "characterId": "leonard",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "derrick-notary",
+      "chapter": 767,
+      "title": "Деррик становится Нотариусом",
+      "description": "Деррик достигает Sequence 6 Пути Солнца.",
+      "relatedSequenceId": "sun-6",
+      "characterId": "derrick",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "audrey-hypnotist",
+      "chapter": 859,
+      "title": "Одри становится Гипнотизёром",
+      "description": "Одри достигает Sequence 6 Пути Зрителя.",
+      "relatedSequenceId": "spectator-6",
+      "characterId": "audrey",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "klein-bizarro-sorcerer",
+      "chapter": 946,
+      "title": "Клейн становится Чародеем-бизарром",
+      "description": "После событий в Туманный город Клейн продвигается до Sequence 4.",
+      "relatedSequenceId": "fool-4",
+      "characterId": "klein",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "emlyn-scarlet-scholar",
+      "chapter": 1009,
+      "title": "Эмлин становится Алым учёным",
+      "description": "Эмлин достигает Sequence 5 Пути Луны.",
+      "relatedSequenceId": "moon-5",
+      "characterId": "emlyn",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "derrick-priest-of-light",
+      "chapter": 1014,
+      "title": "Деррик становится Священником Света",
+      "description": "Деррик продвигается до Sequence 5 Пути Солнца.",
+      "relatedSequenceId": "sun-5",
+      "characterId": "derrick",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "fors-scribe",
+      "chapter": 1014,
+      "title": "Форс становится Переписчиком",
+      "description": "Форс достигает Sequence 6 Пути Ученика.",
+      "relatedSequenceId": "door-6",
+      "characterId": "fors",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "leonard-spirit-warlock",
+      "chapter": 1060,
+      "title": "Леонард становится Духовным чернокнижником",
+      "description": "Леонард достигает Sequence 5 Пути Тьмы.",
+      "relatedSequenceId": "sleepless-5",
+      "characterId": "leonard",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "audrey-dreamwalker",
+      "chapter": 1061,
+      "title": "Одри становится Сновидцем",
+      "description": "Одри продвигается до Sequence 5 Пути Зрителя.",
+      "relatedSequenceId": "spectator-5",
+      "characterId": "audrey",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "klein-scholar-of-yore",
+      "chapter": 1138,
+      "title": "Клейн становится Учёным древности",
+      "description": "Клейн продвигается до Sequence 3 Пути Шута.",
+      "relatedSequenceId": "fool-3",
+      "characterId": "klein",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "alger-ocean-songster",
+      "chapter": 1141,
+      "title": "Алджер становится Певцом океана",
+      "description": "Алджер достигает Sequence 5 Пути Тирана.",
+      "relatedSequenceId": "sailor-5",
+      "characterId": "alger",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "audrey-manipulator",
+      "chapter": 1189,
+      "title": "Одри становится Манипулятором",
+      "description": "Одри продвигается до Sequence 4 Пути Зрителя.",
+      "relatedSequenceId": "spectator-4",
+      "characterId": "audrey",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "fors-traveler",
+      "chapter": 1189,
+      "title": "Форс становится Путешественником",
+      "description": "Форс достигает Sequence 5 Пути Ученика.",
+      "relatedSequenceId": "door-5",
+      "characterId": "fors",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "derrick-unshadowed",
+      "chapter": 1227,
+      "title": "Деррик становится Незапятнанным",
+      "description": "Деррик достигает Sequence 4 Пути Солнца.",
+      "relatedSequenceId": "sun-4",
+      "characterId": "derrick",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "alger-cataclysmic-interrer",
+      "chapter": 1228,
+      "title": "Алджер становится Погребателем катастроф",
+      "description": "Алджер продвигается до Sequence 4 Пути Тирана.",
+      "relatedSequenceId": "sailor-4",
+      "characterId": "alger",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "emlyn-shaman-king",
+      "chapter": 1259,
+      "title": "Эмлин становится Королём шаманов",
+      "description": "Эмлин достигает Sequence 4 Пути Луны.",
+      "relatedSequenceId": "moon-4",
+      "characterId": "emlyn",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "klein-miracle-invoker",
+      "chapter": 1268,
+      "title": "Клейн становится Чудотворцем",
+      "description": "Клейн достигает Sequence 2 Пути Шута.",
+      "relatedSequenceId": "fool-2",
+      "characterId": "klein",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "leonard-nightwatcher",
+      "chapter": 1272,
+      "title": "Леонард становится Ночным дозорным",
+      "description": "Леонард продвигается до Sequence 4 Пути Тьмы.",
+      "relatedSequenceId": "sleepless-4",
+      "characterId": "leonard",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "fors-secrets-sorcerer",
+      "chapter": 1294,
+      "title": "Форс становится Чародеем тайн",
+      "description": "Форс достигает Sequence 4 Пути Ученика.",
+      "relatedSequenceId": "door-4",
+      "characterId": "fors",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "klein-attendant",
+      "chapter": 1352,
+      "title": "Клейн становится Служителем тайн",
+      "description": "Клейн продвигается до Sequence 1 Пути Шута.",
+      "relatedSequenceId": "fool-1",
+      "characterId": "klein",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "klein-fool",
+      "chapter": 1380,
+      "title": "Клейн становится Шутом",
+      "description": "Клейн достигает Sequence 0 и становится богом Пути Шута.",
+      "relatedSequenceId": "fool-0",
+      "characterId": "klein",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "cattleya-clairvoyant",
+      "chapter": 1388,
+      "title": "Кэттлия становится Ясновидцем",
+      "description": "Кэттлия достигает Sequence 3 Пути Отшельника.",
+      "relatedSequenceId": "hermit-3",
+      "characterId": "cattleya",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "xio-imperative-mage",
+      "chapter": 1389,
+      "title": "Хио становится Магом предписаний",
+      "description": "Хио продвигается до Sequence 4 Пути Справедливости.",
+      "relatedSequenceId": "justiciar-4",
+      "characterId": "xio",
+      "type": "advancement",
+      "typeLabel": "ПРОДВИЖЕНИЕ"
+    },
+    {
+      "id": "audrey-dream-weaver",
+      "chapter": 1393,
+      "title": "Одри становится Ткачом снов",
+      "description": "Одри достигает Sequence 3 Пути Зрителя в заключительной части истории.",
+      "relatedSequenceId": "spectator-3",
+      "characterId": "audrey",
       "type": "advancement",
       "typeLabel": "ПРОДВИЖЕНИЕ"
     }
